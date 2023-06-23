@@ -6,11 +6,11 @@ public:
             n = abs(n);
             x = 1/x;
         }
-        if(n%2==0){
-            return myPow(x*x, n/2);
+        if(n&1){
+            return x*myPow(x, n-1);
         }
         else{
-            return x*myPow(x, n-1);
+            return myPow(x*x, n/2);
         }
     }
 };
