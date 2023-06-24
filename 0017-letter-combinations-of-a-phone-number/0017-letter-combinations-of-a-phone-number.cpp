@@ -1,16 +1,16 @@
 class Solution {
 public:
     
-    void rec(vector<string>& ans,unordered_map<int,string> m, string digits,int ind,string& answer){
+    void rec(vector<string>& ans,unordered_map<int,string> m, string digits,int ind,string answer){
         
-        if (ind >= digits.size())
+        if (ind >= digits.size()){
+            ans.push_back(answer);
             return ;
+        }
         string h = m[digits[ind]-'0'];
         for(int i=0;i<h.size();i++){
             answer.push_back(h[i]);
             rec(ans,m,digits,ind+1,answer);
-            if(answer.size()==digits.size())
-            ans.push_back(answer);
             answer.pop_back();
         }
         return;
@@ -30,6 +30,8 @@ public:
         m[8]="tuv";
         m[9]="wxyz";
         string str;
+        if(!digits.size())
+            return answer;
         rec(answer,m,digits,0,str);
         return answer;
         
