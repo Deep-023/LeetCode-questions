@@ -8,30 +8,29 @@ public:
             flag = true;
         }
         while(i<nums.size()){
+            
             if(nums[i] != 1){
                 first++;
                 second++;
                 flag = true;
             
-            if(first==2){
-                count1=0;
-                first=0;
+                if(first==2){
+                    count1=0;
+                    first=0;
+                }
+                else if(second==2){
+                    count2=0;
+                    second=0;
+                }
             }
-            if(second==2){
-                count2=0;
-                second=0;
-            }
-                i++;
-                int res = max(count1, count2);
-                ans = max(ans,res);
-                continue;
-            }
-            if(first<2){
+            
+            if(first<2 && nums[i]==1 ){
                 count1++;
             }
-            if(second<2 & second >=0){
+            if(second<2 && second >=0 && nums[i]==1 ){
                 count2++;
             }
+            
             int res = max(count1, count2);
             ans = max(ans,res);
             i++;
