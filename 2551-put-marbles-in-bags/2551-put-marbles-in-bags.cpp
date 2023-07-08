@@ -1,23 +1,22 @@
 class Solution {
 public:
     long long putMarbles(vector<int>& weights, int k) {
-    priority_queue<int> pq1;
-    priority_queue<int, vector<int>, greater<int>> pq2;k--;
-   for (int i = 0; i < weights.size() - 1; i++) {
-    pq1.push(weights[i] + weights[i + 1]);
-    pq2.push(weights[i] + weights[i + 1]);
-    if (pq1.size() > k ) {
-        pq1.pop();
-        pq2.pop();
-    }
-    }
-   long long ans1 = 0, ans2 = 0;
-   while (!pq1.empty()) {
-    ans1 += pq1.top();
-    ans2 += pq2.top();
-    pq1.pop();
-    pq2.pop();
-   }
-    return ans2 - ans1;
+        if(k==1)
+            return 0;
+        
+        vector<long long int>ans;
+        for(int i=1;i<weights.size();i++)
+            ans.push_back(weights[i] + weights[i-1]);
+        
+        sort(ans.begin(),ans.end());
+        
+        long long int maxSum=0;
+        long long int minSum=0;
+        for(int i=0;i<k-1;i++){
+            minSum+=ans[i];
+            maxSum+=ans[weights.size() - 2 - i];
+        }
+        
+        return maxSum - minSum;
     }
 };
