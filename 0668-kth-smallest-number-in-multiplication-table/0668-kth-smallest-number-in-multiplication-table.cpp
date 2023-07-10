@@ -5,7 +5,7 @@ public:
         while(mn<=mx){
             mid = (mx-mn)/2+mn;
             x = 0;
-            for(i = 1; i <= m; i++){
+            for(i = 1; i <= min(m,mid); i++){
                 x += min(n,mid/i);
             }
             if(x>=k){
