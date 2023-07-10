@@ -30,15 +30,13 @@ public:
             ans.push_back(nums2[j]);
             j++;
         }
-        for(int i=0;i<ans.size();i++)
-            cout<<ans[i]<<" ";
-        double median=0.0;
+        
         int n=ans.size(); 
         if(n&1)
             return ans[n/2]*1.0;
         else{
-            median = (ans[n/2 - 1] + ans[n/2])*1.0/2;
+            return (ans[n/2 - 1] + ans[n/2])*1.0/2;
         }
-        return median;
+        return 0.0;
     }
 };
