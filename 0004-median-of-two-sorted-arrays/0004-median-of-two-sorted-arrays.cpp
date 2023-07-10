@@ -3,7 +3,9 @@ public:
     double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2) {
         vector<int> ans;
         int n1 = nums1.size(), n2 = nums2.size(), i=0,j=0;
-        while(n1 && n2){
+        int t = n1+n2;
+        int med = t/2 + 1;
+        while(i+j<=med && n1 && n2){
             if(nums1[i]<nums2[j]){
                 ans.push_back(nums1[i]);
                 i++;
@@ -22,21 +24,20 @@ public:
                 n1--;n2--;
             }
         }
-        while(n1-- > 0){
+        while(i+j<=t && n1-- > 0){
             ans.push_back(nums1[i]);
             i++;
         }
-        while(n2-- > 0){
+        while(i+j<=t && n2-- > 0){
             ans.push_back(nums2[j]);
             j++;
         }
         
-        int n=ans.size(); 
-        if(n&1)
-            return ans[n/2]*1.0;
+        if(t&1)
+            return ans[t/2]*1.0;
         else{
-            return (ans[n/2 - 1] + ans[n/2])*1.0/2;
-        }
+            return (ans[t/2 - 1] + ans[t/2])*1.0/2;
+        } 
         return 0.0;
     }
 };
