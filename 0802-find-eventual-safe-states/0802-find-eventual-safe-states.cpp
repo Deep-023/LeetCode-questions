@@ -41,9 +41,9 @@ public:
 
 class Solution {
 public:
-    vector<int> eventualSafeNodes(vector<vector<int>>& graph) {
+    vector<int> eventualSafeNodes(vector<vector<int>>& graph) {  //kahn's algorithm
         int n = graph.size();
-        vector<int> indegree(n);
+        vector<int> outdegree(n);
         vector<vector<int>> adj(n);
         for(int i=0;i<n;i++){
             for(auto j:graph[i]){
@@ -55,12 +55,12 @@ public:
         
         for(int i=0;i<n;i++){
             for(auto j:graph[i]){
-                indegree[i]++;
+                outdegree[i]++;
             }
         }
         
         for(int i=0;i<n;i++){
-            if(indegree[i]==0)
+            if(outdegree[i]==0)
                 q.push(i);
         }
         
@@ -69,8 +69,8 @@ public:
             q.pop();
             ans.push_back(top);
             for(auto i:adj[top]){
-                indegree[i]--;
-                if(indegree[i] == 0)
+                outdegree[i]--;
+                if(outdegree[i] == 0)
                     q.push(i);
             }
         }
