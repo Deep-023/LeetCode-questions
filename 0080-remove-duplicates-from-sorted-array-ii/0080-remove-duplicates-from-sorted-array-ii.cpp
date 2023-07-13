@@ -1,19 +1,15 @@
 class Solution {
 public:
     int removeDuplicates(vector<int>& nums) {
-        int j=1, count=1, ans=1;
-        for(int i=1;i<nums.size();i++){
-            if(nums[i-1] == nums[i]){
-                count++;
+        int i = 0;  // Pointer to track the position to place the next unique element
+        for (int n : nums) {
+            if (i < 2 || n > nums[i-2]) {
+                // The current element is either the first or second occurrence of a number
+                // or it is greater than the number before the last unique element
+                // So, it can be included in the updated array
+                nums[i++] = n;  // Place the current element at the correct position
             }
-            else
-                count=1;
-            
-            if(count>2){
-                nums.erase(nums.begin()+i);
-                i--;
-            }     
         }
-        return nums.size();
+        return i;  // Return the new length of the array with duplicates removed
     }
 };
