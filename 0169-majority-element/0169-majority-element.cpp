@@ -5,10 +5,8 @@ public:
         int n = nums.size();
         for(int i=0;i<nums.size();i++){
             m[nums[i]]++;
-        }
-        for(auto i= m.begin();i!= m.end();i++){
-            if(i->second > n/2)   
-                return i->first;
+            if(m[nums[i]]>n/2)
+                return nums[i];
         }
         return -1;
     }
