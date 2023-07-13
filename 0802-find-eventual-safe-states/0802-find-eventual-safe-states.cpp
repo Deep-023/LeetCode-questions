@@ -1,4 +1,4 @@
-class Solution {
+/*class Solution {
 public:
     bool dfs(int node, vector<vector<int>>& adj, vector<bool>& visit, vector<bool>& inStack) {
         // If the node is already in the stack, we have a cycle.
@@ -36,5 +36,45 @@ public:
             }
         }
         return safeNodes;
+    }
+}; */
+
+class Solution {
+public:
+    vector<int> eventualSafeNodes(vector<vector<int>>& graph) {
+        int n = graph.size();
+        vector<int> indegree(n);
+        vector<vector<int>> adj(n);
+        for(int i=0;i<n;i++){
+            for(auto j:graph[i]){
+                adj[j].push_back(i);
+            }
+        }
+        queue<int> q;
+        vector<int> ans;
+        
+        for(int i=0;i<n;i++){
+            for(auto j:graph[i]){
+                indegree[i]++;
+            }
+        }
+        
+        for(int i=0;i<n;i++){
+            if(indegree[i]==0)
+                q.push(i);
+        }
+        
+        while(!q.empty()){
+            int top = q.front();
+            q.pop();
+            ans.push_back(top);
+            for(auto i:adj[top]){
+                indegree[i]--;
+                if(indegree[i] == 0)
+                    q.push(i);
+            }
+        }
+        sort(ans.begin(),ans.end());
+        return ans;
     }
 };
