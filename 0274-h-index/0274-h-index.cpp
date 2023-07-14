@@ -10,7 +10,6 @@ public:
                 m[c[i]] = n-i;
         }
         for(auto i:m){
-            cout<<i.first<< " " <<i.second<<endl;
             if(i.first <= i.second){
                 ans = max(ans,i.first);
             }
