@@ -1,7 +1,7 @@
 class Solution {
 public:
     
-    double solve( vector<vector<double>>&dp, int a, int b, vector<vector<int>> prop){
+    double solve( map<pair<int,int>,double>& dp, int a, int b, vector<vector<int>> prop){
         
         if(a<=0){
             if(b<=0)
@@ -12,8 +12,8 @@ public:
         if(b<=0)
             return 0;
         
-        if(dp[a][b] != -1)
-            return dp[a][b];
+        if(dp.count({a,b}))
+            return dp[{a,b}];
         
         double sum=0;
         
@@ -21,7 +21,7 @@ public:
             sum += solve(dp,a-prop[i][0],b-prop[i][1], prop);
         }
         
-        return dp[a][b] = sum/4;
+        return dp[{a,b}] = sum/4;
         
     }
     
@@ -29,7 +29,7 @@ public:
         if(n>=4850)
             return 1;
         
-        vector<vector<double>>dp (n+1, vector<double>(n+1,-1));
+        map<pair<int,int>,double> dp;
         vector<vector<int>> prop {
         {100,0},
         {75,25},
