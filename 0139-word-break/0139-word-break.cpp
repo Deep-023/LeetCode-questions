@@ -32,15 +32,16 @@ public:
 
 class Solution {
 public:
-     unordered_map<string,bool>dp;
+    unordered_map<string,bool>dp;
     bool solve(string s,unordered_set<string>&m){
         if(s.length()==0){
             return true;
         }
         if(dp.find(s)!=dp.end())
         return dp[s];
+        string r;
         for(int i=0;i<s.length();i++){
-            string r=s.substr(0,i+1);
+            r.push_back(s[i]);
             if(m.count(r)){
                 if(solve(s.substr(i+1),m))
                 return dp[s]=true;
