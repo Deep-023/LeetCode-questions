@@ -21,10 +21,10 @@ public:
         
         
         int ans=INT_MAX;
-        for(int i=idx;i<n;i++){
+        for(int i=n-1;i>=idx;i--){
             if(isPalindrome(s,idx,i)){
                 int steps = 1+solve(s,i+1,n,m);
-                ans=min(ans, steps );  
+                ans=min(ans, steps);  
             }
         }
         return m[idx]=ans;
