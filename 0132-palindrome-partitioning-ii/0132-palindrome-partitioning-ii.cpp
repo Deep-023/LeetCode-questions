@@ -10,10 +10,10 @@ public:
         return true;
     }
     
-    int solve(string s,int idx,int n, vector<int>& m){
+    int solve(string& s,int idx,int n, vector<int>& m){
         
-        if(idx>=n){
-            return 0;
+        if(idx+1==n || isPalindrome(s,idx,n-1)){
+            return 1;
         }
         
         if(m[idx] !=-1 )
