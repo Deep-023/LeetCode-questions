@@ -14,7 +14,7 @@ public:
         }
     }
 
-    bool palindrome(string s, int start, int end) {
+    bool palindrome(string& s, int start, int end) {
         while (start <= end) {
             if (s[start] != s[end])
                 return false;
