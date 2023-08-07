@@ -1,55 +1,33 @@
 class Solution {
 public:
-    set<vector<string>>ans;
-    
-     bool isPalindrome(string& s, int i, int j){
-        while(i<j){
-            if(s[i]!=s[j])
-                return false;
-            i++;j--;
-        }
-        return true;
-    }
-    
-    void solve(string& s,int idx,int n, vector<string>& output){
-        if(n==idx+1){
-            output.push_back(string (1, s[n-1]));
-            ans.insert(output);
-            output.pop_back();
+    void partitionHelper(int idx, string s, vector<string>& temp, vector<vector<string>>& ans) {
+        if (idx == s.size()) {
+            ans.push_back(temp);
             return;
         }
-        string r;
-        for(int i=idx;i<n;i++){
-            r.push_back(s[i]);
-            if(isPalindrome(s,idx,i)){
-                output.push_back(r);
-                if(isPalindrome(s,i+1,n-1)){
-                    string r = s.substr(i+1, n-i+1);
-                    if(r!=""){
-                    output.push_back(r);
-                    ans.insert(output);
-                    output.pop_back(); 
-                    }
-                }
-                solve(s,i+1,n,output);
-                output.pop_back();
+        for (int i = idx; i < s.size(); i++) {
+            if (palindrome(s, idx, i) == true) {
+                temp.push_back(s.substr(idx, i-idx+1));
+                partitionHelper(i+1, s, temp, ans);
+                temp.pop_back();
             }
         }
     }
-    
+
+    bool palindrome(string s, int start, int end) {
+        while (start <= end) {
+            if (s[start] != s[end])
+                return false;
+            start++;
+            end--;    
+        }
+        return true;
+    }
+
     vector<vector<string>> partition(string s) {
-        vector<string> output;
-        int n = s.size();
-        solve(s,0,n,output);
-        if(isPalindrome(s,0,n-1)){
-            output.push_back(s);
-            ans.insert(output);
-            output.pop_back();
-        }
-        vector<vector<string>> anss;
-        for(auto i:ans){
-            anss.push_back(i);
-        }
-        return anss;
+        vector<vector<string>> ans;
+        vector<string> temp;
+        partitionHelper(0, s, temp, ans);
+        return ans;
     }
 };
