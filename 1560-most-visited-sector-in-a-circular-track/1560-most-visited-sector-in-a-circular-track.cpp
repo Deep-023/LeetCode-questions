@@ -12,7 +12,6 @@ public:
                     j++;
             }
         }
-        cout<<"test"<<endl;
         m[rounds[n1-1]]++;
         int mx=0;
         
