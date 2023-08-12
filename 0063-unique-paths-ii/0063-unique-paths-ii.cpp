@@ -13,9 +13,10 @@ public:
         if(i>=n || j>=m)
             return 0;
         
-        if(dp[i][j])
+        if(dp[i][j]!= -1)
             return dp[i][j];
         
+        dp[i][j]=0;
         if(i+1<n && isSafe(og,i+1,j)){
             if(solve(og,i+1,j,n,m,dp))
                 dp[i][j] += dp[i+1][j];
@@ -34,7 +35,7 @@ public:
         int m= og[0].size();
         if(og[0][0]==1)
             return 0;
-        vector<vector<int>> dp(n, vector<int>(m,0));
+        vector<vector<int>> dp(n, vector<int>(m,-1));
         return solve(og,0,0,n,m,dp);
     }
 };
