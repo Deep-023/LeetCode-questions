@@ -1,9 +1,7 @@
 class Solution{
 public:  
-int helper(vector<vector<int>> & mat, int a, int b) {
+int helper(vector<vector<int>>& mat, int a, int b, int m, int n) {
         
-        int m = mat.size();
-        int n = mat[0].size();
         int count = 0;
         int bound = n;
         
@@ -12,6 +10,8 @@ int helper(vector<vector<int>> & mat, int a, int b) {
                 if (mat[i][j]) count += 1;
                 else bound = j;
             }
+            if(bound==b)
+                return count;
         }
         
         return count;
@@ -26,7 +26,7 @@ int helper(vector<vector<int>> & mat, int a, int b) {
         
         for (int i=0; i<m; i++) {
             for (int j=0; j<n; j++) {
-                count += helper(mat, i, j);
+                count += helper(mat, i, j, m, n);
             }
         }
         
