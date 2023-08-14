@@ -1,13 +1,15 @@
 class Solution {
 public:
-    int findKthLargest(vector<int>& nums, int k) {
-        multiset<int, greater<int>> s(nums.begin(),nums.end());
-        int count = 1;
-        for(auto i:s){
-            if(count==k)
-                return i;
-            count++;
+    int findKthLargest(std::vector<int>& nums, int k) {
+        priority_queue<int, vector<int>, greater<int>> min_heap(nums.begin(), nums.begin() + k);
+        
+        for (int i = k; i < nums.size(); i++) {
+            if (nums[i] > min_heap.top()) {
+                min_heap.pop();
+                min_heap.push(nums[i]);
+            }
         }
-        return -1;
+        
+        return min_heap.top();
     }
 };
