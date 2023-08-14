@@ -1,6 +1,6 @@
 class Solution{
 public:  
-int helper(vector<vector<int>>& mat, int a, int b, int m, int n) {
+int helper(vector<vector<int>>& mat, int a, int b, int& m, int& n) {
         
         int count = 0;
         int bound = n;
@@ -10,10 +10,8 @@ int helper(vector<vector<int>>& mat, int a, int b, int m, int n) {
                 if (mat[i][j]) count += 1;
                 else bound = j;
             }
-            if(bound==b)
-                return count;
         }
-        
+  
         return count;
 
     }
