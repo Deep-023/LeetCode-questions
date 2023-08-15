@@ -1,17 +1,13 @@
 class Solution {
 public:
     bool solve(vector<int>& arr, int idx, int n, vector<int>& visited){
-        if(idx>=n || idx<0)
+        if(idx>=n || idx<0 || visited[idx])
             return false;
         if(arr[idx]==0)
             return true;
-        if(visited[idx])
-            return false;
+        
         visited[idx]=1;
-        bool ans1 = solve(arr,idx+arr[idx],n,visited);
-        bool ans2 = solve(arr,idx-arr[idx],n,visited);
-        visited[idx]=0;
-        return ans1 || ans2;
+        return solve(arr,idx+arr[idx],n,visited) || solve(arr,idx-arr[idx],n,visited);
     }
     
     bool canReach(vector<int>& arr, int start) {
