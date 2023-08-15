@@ -17,6 +17,7 @@ public:
             arr.push_back(temp->val);
             temp = temp->next;
         }
+        int ind = find(arr.begin(),arr.end(),x) - arr.begin();
         int n = arr.size();
         for(int i=1;i<n;i++){
             int k=i-1;
