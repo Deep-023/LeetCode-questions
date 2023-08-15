@@ -27,7 +27,7 @@ public:
                             }
                         }
                     }
-                    if(temp == 1 && visited[i][j] == 0)
+                    if(temp == 1 && visited[i][j] == 0) //condition for inc server if there is another server in row or col
                         count++;
                 }
                 visited[i][j]=1;
