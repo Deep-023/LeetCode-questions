@@ -7,7 +7,7 @@
  *     ListNode(int x) : val(x), next(nullptr) {}
  *     ListNode(int x, ListNode *next) : val(x), next(next) {}
  * };
- */
+ 
 class Solution {
 public:
     ListNode* partition(ListNode* head, int x) {
@@ -34,5 +34,29 @@ public:
             temp = temp->next;
         }
         return head;
+    }
+};*/
+
+class Solution {
+public:
+    ListNode* partition(ListNode* head, int x) {
+        ListNode* leftStart = new ListNode();
+        ListNode* rightStart = new ListNode();
+        ListNode* leftEnd = leftStart;
+        ListNode* rightEnd = rightStart;
+        
+        while(head!=NULL){
+            if(head->val < x){
+                leftEnd->next = head;
+                leftEnd= leftEnd->next;
+            }else{
+                rightEnd->next = head;
+                rightEnd = rightEnd->next;
+            }
+            head = head->next;
+        }
+        rightEnd->next = NULL;
+        leftEnd->next = rightStart->next;
+        return leftStart->next;
     }
 };
