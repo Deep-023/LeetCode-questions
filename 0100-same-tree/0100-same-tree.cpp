@@ -20,10 +20,7 @@ public:
         if(p->val != q->val)
             return false;
         
-        bool ans1= solve(p->left, q->left);
-        bool ans2= solve(p->right, q->right);
-        
-        return ans2 && ans1;
+        return solve(p->left, q->left) && solve(p->right, q->right);
     }
     
     bool isSameTree(TreeNode* p, TreeNode* q) {
