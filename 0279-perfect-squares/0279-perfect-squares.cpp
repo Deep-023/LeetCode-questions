@@ -1,20 +1,18 @@
 class Solution {
 public:
-    int numSquares(int n) {
-        vector<int> memo(n + 1, -1);
-        return helper(n, memo);
+    int solve(int n, vector<int>&dp){
+        if(n==0)
+            return 0;
+        if(dp[n]!=-1)
+            return dp[n];
+        int ans=INT_MAX;
+        for(int i=sqrt(n);i>0;i--)
+            ans = min(ans,solve(n-i*i,dp)+1);
+        return dp[n]=ans;
     }
-
-    int helper(int tar, vector<int>& memo) {
-        if (tar == 0) return 0;
-
-        if (memo[tar] != -1) return memo[tar];
-
-        int res = 1e9;
-        for (int i = 1; i * i <= tar; ++i) {
-            res = min(res, 1 + helper(tar - i * i, memo));
-        }
-
-        return memo[tar] = res;
+    
+    int numSquares(int n) {
+        vector<int>dp(n+1,-1);
+        return solve(n,dp);
     }
 };
