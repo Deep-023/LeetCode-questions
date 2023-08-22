@@ -18,10 +18,8 @@ public:
             ListNode* temp = head->next;
             head->next = prev;
             prev = head;
-            if(temp==NULL)
-                break;
             head = temp;
         }
-        return head;
+        return prev;
     }
 };
