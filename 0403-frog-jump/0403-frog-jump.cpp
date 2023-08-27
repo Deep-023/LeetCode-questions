@@ -13,12 +13,12 @@ public:
         
         count +=k;
         if(m.find(count)!=m.end()){
-            if(solve(k+1,m[count],stones,target,m,count,dp))
-                return dp[ind][k]=true;
+            if((count+k<=target) && solve(k+1,m[count],stones,target,m,count,dp))
+                return true;
             else if(solve(k,m[count],stones,target,m,count,dp))
-                return dp[ind][k]=true;
+                return true;
             else if( (k-1!=0) && solve(k-1,m[count],stones,target,m,count,dp))
-                return dp[ind][k]=true;
+                return true;
         }
         
         return dp[ind][k]=false;      
@@ -32,6 +32,6 @@ public:
         for(int i=0;i<n;i++){
             m[stones[i]]=i;
         }
-        return solve(1,1,stones,stones[n-1],m,0,dp);
+        return solve(1,0,stones,stones[n-1],m,0,dp);
     }
 };
