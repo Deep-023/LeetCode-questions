@@ -32,6 +32,6 @@ public:
         for(int i=0;i<n;i++){
             m[stones[i]]=i;
         }
-        return solve(1,0,stones,stones[n-1],m,0,dp);
+        return solve(1,1,stones,stones[n-1],m,0,dp);
     }
 };
