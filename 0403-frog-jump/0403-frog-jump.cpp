@@ -1,7 +1,7 @@
 class Solution {
 public:
     
-    bool solve(int k, int ind, vector<int>& stones, int n, int target, unordered_map<int,int>& m, int count, vector<vector<int>>&dp){
+    bool solve(int k, int ind, vector<int>& stones, int target, unordered_map<int,int>& m, int count, vector<vector<int>>&dp){
         if(count==target)
             return true;
         if(count+k>target)
@@ -11,13 +11,13 @@ public:
             return dp[ind][k];
         }
         
-        
-        if(m.find(count+k)!=m.end()){
-            if(solve(k+1,m[count+k],stones,n,target,m,count+k,dp))
+        count +=k;
+        if(m.find(count)!=m.end()){
+            if(solve(k+1,m[count],stones,target,m,count,dp))
                 return dp[ind][k]=true;
-            else if(solve(k,m[count+k],stones,n,target,m,count+k,dp))
+            else if(solve(k,m[count],stones,target,m,count,dp))
                 return dp[ind][k]=true;
-            else if( (k-1!=0) && solve(k-1,m[count+k],stones,n,target,m,count+k,dp))
+            else if( (k-1!=0) && solve(k-1,m[count],stones,target,m,count,dp))
                 return dp[ind][k]=true;
         }
         
@@ -32,6 +32,6 @@ public:
         for(int i=0;i<n;i++){
             m[stones[i]]=i;
         }
-        return solve(1,1,stones,n,stones[n-1],m,0,dp);
+        return solve(1,1,stones,stones[n-1],m,0,dp);
     }
 };
