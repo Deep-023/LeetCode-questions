@@ -8,7 +8,7 @@ public:
         }
         
         for(auto i:m){
-            if(i.second.size()==0)
+            if(i.second.empty())
                 return i.first;
         }
         return "";
