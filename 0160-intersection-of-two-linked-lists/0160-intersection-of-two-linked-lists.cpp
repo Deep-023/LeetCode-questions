@@ -11,17 +11,21 @@ public:
     ListNode *getIntersectionNode(ListNode *headA, ListNode *headB) {
         unordered_set<ListNode*> sett;
         ListNode*temp = headA;
-        while(temp){
-            sett.insert(temp);
+        while(temp || headB){
+            if(temp){
+                if(sett.count(temp))
+                  return temp;
+                else
+                 sett.insert(temp);
             temp = temp->next;
-        }
-        temp = headB;
-        while(temp){
-            if(sett.count(temp))
-                return temp;
-            else
-                sett.insert(temp);
-            temp = temp->next;
+            }
+            if(headB){
+                 if(sett.count(headB))
+                    return headB;
+                 else
+                     sett.insert(headB);
+            headB = headB->next;  
+            }
         }
         return NULL;
     }
