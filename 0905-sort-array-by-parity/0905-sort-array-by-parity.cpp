@@ -4,11 +4,11 @@ public:
         int n= nums.size();
         vector<int> ans(n);
         int i=0,j=n-1;
-        for(auto k:nums){
-            if(k&1)
-                ans[j--] = k;
+        for(int k=0;k<n;k++){
+            if(nums[k]&1)
+                ans[j--] = nums[k];
             else
-                ans[i++] = k;
+                ans[i++] = nums[k];
         }
         return ans;
     }
