@@ -11,7 +11,7 @@ public:
                 continue;
             if(s[i] != '#')
                 a.push(s[i]);
-            else if(!a.empty())
+            else
                 a.pop();
         }
         
@@ -20,7 +20,7 @@ public:
                 continue;
             if(t[i] != '#')
                 b.push(t[i]);
-            else if(!b.empty())
+            else
                 b.pop();
         }
         
