@@ -3,6 +3,7 @@ public:
     int countVowelPermutation(int n) {
         int mod = 1e9 + 7;
         long long a=1,e=1,i=1,o=1,u=1;
+        
         if(n==1)
             return 5;
         
@@ -10,17 +11,11 @@ public:
         
         for(int q=1;q<n;q++){
             
-            a *= 1;
-            e *= 2;
-            i *= 4;
-            o *= 2;
-            u *= 1;
-     
-            num[0] = (e/2 + u + i/4)%mod;
-            num[1] = (a + i/4)%mod;
-            num[2] = (o/2 + e/2)%mod;
-            num[3] = (i/4)%mod;
-            num[4] = (o/2+i/4)%mod;
+            num[0] = (e + u + i)%mod;
+            num[1] = (a + i)%mod;
+            num[2] = (o + e)%mod;
+            num[3] = (i)%mod;
+            num[4] = (o+i)%mod;
             
             a = num[0];
             e = num[1];
