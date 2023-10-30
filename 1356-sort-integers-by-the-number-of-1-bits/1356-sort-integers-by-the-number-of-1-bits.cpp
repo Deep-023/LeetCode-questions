@@ -5,12 +5,13 @@ public:
         int y = 0;
         int c = a,d=b;
         while(a>0){
-            if(a&1)x++;  //alt __builtin_popcount(x) can be used for counting no. of ones
-            a = a>>1;
+            a = a&(a-1);
+            x++;  //alt __builtin_popcount(x) can be used for counting no. of ones
+            
         }
         while(b>0){
-            if(b&1)y++;
-            b = b>>1;
+            b = b&(b-1);
+            y++;
         }
         if(x==y)
             return c<d;
