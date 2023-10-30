@@ -5,7 +5,7 @@ public:
         int y = 0;
         int c = a,d=b;
         while(a>0){
-            if(a&1)x++;
+            if(a&1)x++;  //alt __builtin_popcount(x) can be used for counting no. of ones
             a = a>>1;
         }
         while(b>0){
