@@ -3,7 +3,7 @@ public:
     int minPairSum(vector<int>& nums) {
         int mx = INT_MIN;
         int mn = INT_MAX;
-        unordered_map<int,int>hash;
+        int hash[100001] = {0};
         for(int num : nums) {
             hash[num]++;
             mx = max(mx, num);
