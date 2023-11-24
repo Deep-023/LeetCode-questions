@@ -47,16 +47,16 @@ class Solution{
         return -1;
     }
     
-    Node* solve(int in[], int pre[], int preSt, int preEd, int& index,int n){
+    Node* solve(int in[], int pre[], int inSt, int inEd, int& index,int n){
         
-        if(index >= n || preSt > preEd){
+        if(index >= n ||  inSt > inEd){
             return NULL;
         }
         
         Node* root = new Node(pre[index]);
-        int pos = findPos(in,pre[index++],preSt,preEd);
-        root->left = solve(in,pre,preSt,pos-1,index,n);
-        root->right = solve(in,pre,pos+1,preEd,index,n);
+        int pos = findPos(in,pre[index++],inSt,inEd);
+        root->left = solve(in,pre,inSt,pos-1,index,n);
+        root->right = solve(in,pre,pos+1,inEd,index,n);
         return root;
     }
     
