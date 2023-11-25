@@ -10,13 +10,16 @@ public:
             sum += nums[i];
         }
         sum=0;
-        for(int i=n-1;i>=0;i--){
+        /*for(int i=n-1;i>=0;i--){
             postSum[i] = sum;
             sum += nums[i];
         }
-        
-        for(int i=0;i<n;i++){
-            nums[i] = ((nums[i]*(i+1))-prefixSum[i]) - ((nums[i]*(n-i))-postSum[i]);
+        sum=0;*/
+        int temp;
+        for(int i=n-1;i>=0;i--){
+            temp = nums[i];
+            nums[i] = ((nums[i]*(i+1))-prefixSum[i]) - ((nums[i]*(n-i))-sum);
+            sum += temp;
         }
         
         return nums;
