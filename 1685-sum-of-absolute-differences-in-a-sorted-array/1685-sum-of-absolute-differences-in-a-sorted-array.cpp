@@ -3,7 +3,6 @@ public:
     vector<int> getSumAbsoluteDifferences(vector<int>& nums) {
         int sum = 0, n= nums.size();
         vector<int>prefixSum(n,0);
-        vector<int>postSum(n,0);
         
         for(int i=0;i<n;i++){
             prefixSum[i] = sum;
