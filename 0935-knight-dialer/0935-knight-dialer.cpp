@@ -9,7 +9,7 @@ public:
             dp[0][j] = 1; //populate the base case for n =1
         for (int i = 1; i < n; i++) { // no of steps taken by knight to reach i
             for (int j = 0; j < 10; j++) { // no of digits
-                for (int p : paths[j]) { // Previous move of knight in order to reach digit j
+                for (int& p : paths[j]) { // Previous move of knight in order to reach digit j
                     dp[i][j] += dp[i - 1][p]; // cumulatively add from the previous knight move. For instance., F(2, 0) -> F(1,4) +                     F(1,6) F(2,6) -> F(1,0) + F(1,1) + F(1,7)
             }
             dp[i][j] %= (int)MOD;
