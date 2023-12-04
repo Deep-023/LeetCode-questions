@@ -7,12 +7,6 @@ public:
                 num = max(num,s[i]-'0');
         }
         
-        if(num==-1)
-            return "";
-        string st;
-        st.push_back(num+'0');
-        st.push_back(num+'0');
-        st.push_back(num+'0');
-        return st;
+        return num!=-1? string(3,num+'0') : "";
     }
 };
