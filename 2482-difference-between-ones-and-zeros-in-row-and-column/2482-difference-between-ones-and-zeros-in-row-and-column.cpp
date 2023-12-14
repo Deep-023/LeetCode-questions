@@ -9,15 +9,15 @@ public:
             for(int j=0;j<m;j++){
                 if(grid[i][j] == 1)
                 {
-                    row[i]++;
-                    col[j]++;
+                    row[i]+= grid[i][j];
+                    col[j]+= grid[i][j];
                 }
             }
         }
         
         for(int i=0;i<n;i++){
             for(int j=0;j<m;j++){
-                grid[i][j] = row[i] + col[j] -(n-row[i]) - (m-col[j]); 
+                grid[i][j] = 2*(row[i] + col[j]) -n -m; 
             }
         }
         
