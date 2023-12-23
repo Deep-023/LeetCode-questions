@@ -2,9 +2,8 @@ class Solution {
     
     struct PairHash {
     template <class T1, class T2>
-    std::size_t operator () (const std::pair<T1, T2>& p) const {
-        // Implement a hash function for pair<int, int>
-        return std::hash<T1>{}(p.first) ^ std::hash<T2>{}(p.second);
+    size_t operator () (const std::pair<T1, T2>& p) const {
+        return hash<T1>{}(p.first) ^ hash<T2>{}(p.second);
     }
 };
   
