@@ -11,15 +11,13 @@ public:
         if(dp[idx][total] != -1)
             return dp[idx][total];
         
-        int ans = 0;
+        dp[idx][total] = 0;
         for(int i=1;i<=k;i++){
-            if(i<=target){
-                ans += solve(n,idx+1,k,target,total+i,dp);
-                ans%=mod;
-            }
+            dp[idx][total] += solve(n,idx+1,k,target,total+i,dp);
+            dp[idx][total]%=mod;
         }
         
-        return dp[idx][total]=ans%mod;
+        return dp[idx][total];
     }
     
     int numRollsToTarget(int n, int k, int target) {
