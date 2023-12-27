@@ -25,8 +25,8 @@ public:
         return ans;
     }
     
-    TreeNode* makeTree(vector<int>& preor, vector<int>& inor, int& idx, int left, int right){  
-        if(idx >= preor.size())
+    TreeNode* makeTree(vector<int>& preor, vector<int>& inor, int& idx, int left, int right, int n){  
+        if(idx >= n)
             return NULL;
         
         int pos = find(inor.begin(),inor.end(),preor[idx]) - inor.begin();
@@ -35,8 +35,8 @@ public:
             return NULL;
         
         TreeNode* root = new TreeNode(preor[idx++]);
-        root->left= makeTree(preor, inor, idx, left, pos-1 );
-        root->right= makeTree(preor, inor, idx, pos+1, right);
+        root->left= makeTree(preor, inor, idx, left, pos-1,n);
+        root->right= makeTree(preor, inor, idx, pos+1, right,n);
         
         return root;
         
@@ -57,8 +57,8 @@ public:
         
         vector<int> inor = preor;
         sort(inor.begin(),inor.end());
-        int i =0 ;
-        return makeTree(preor,inor,i,0,preor.size()-1);
+        int i =0;
+        return makeTree(preor,inor,i,0,preor.size()-1, preor.size());
     }
 };
 
