@@ -1,7 +1,7 @@
 class Solution {
 public:
     vector<vector<int>> findWinners(vector<vector<int>>& matches) {
-        unordered_map<int,int> map;
+        map<int,int> map;
         vector<vector<int>> ans(2);
         int n = matches.size();
         
@@ -25,9 +25,7 @@ public:
             if(i.second == 2)
                 ans[1].push_back(i.first);
         }
-        
-        sort(ans[1].begin(),ans[1].end());
-        sort(ans[0].begin(),ans[0].end());
+       
         
         return ans;
         
