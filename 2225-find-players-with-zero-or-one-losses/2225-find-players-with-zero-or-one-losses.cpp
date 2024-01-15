@@ -25,7 +25,9 @@ public:
             if(i.second == 2)
                 ans[1].push_back(i.first);
         }
-       
+        
+        sort(ans[1].begin(),ans[1].end());
+        sort(ans[0].begin(),ans[0].end());
         
         return ans;
         
