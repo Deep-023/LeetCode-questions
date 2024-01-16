@@ -8,7 +8,7 @@ public:
     }
     
     bool insert(int val) {
-       if(m[val]){
+       if(m.count(val)){
            return false;
        }
         else{
@@ -18,11 +18,10 @@ public:
     }
     
     bool remove(int val) {
-        if(m[val]){
+        if(m.count(val)){
             m.erase(val);
             return true;
         }
-        m.erase(val);
         return false;
     }
     
