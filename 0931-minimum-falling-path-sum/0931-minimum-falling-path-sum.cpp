@@ -1,13 +1,13 @@
 class Solution {
 public:
-    /*int solve(vector<vector<int>>& matrix,int n , int row, int col,vector<vector<int>>&dp){
+    int solve(vector<vector<int>>& matrix,int n , int row, int col,vector<vector<int>>&dp){
         if(row>=n){
             return 0;
         }
         else if(col>=n || col<0)
             return 1e9;
         
-        if(dp[row][col] != -1){
+        if(dp[row][col] != 1e9){
             return dp[row][col];
         }
         
@@ -19,17 +19,17 @@ public:
         }
         
         return dp[row][col] = ans+matrix[row][col];
-    }*/
+    }
     
     int minFallingPathSum(vector<vector<int>>& matrix) {
-        /*int ans = INT_MAX;
+        int ans = INT_MAX;
         int n = matrix.size();
-        vector<vector<int>>dp(n,vector<int>(n,-1));
+        vector<vector<int>>dp(n,vector<int>(n,1e9));
         for(int i=0;i<n;i++)
             ans = min(ans,solve(matrix,n,0,i,dp));
-        return ans;*/
+        return ans;
         
-        int n = matrix.size();
+        /*int n = matrix.size();
         vector<vector<int>> dp(n+1, vector<int>(n+1, 1e9));
 
         // Initialize the last row of dp with the values from the matrix
@@ -52,6 +52,6 @@ public:
         // Find the minimum value in the first row of dp
         int ans = *min_element(dp[0].begin(), dp[0].end());
 
-        return ans;
+        return ans;*/
     }
 };
