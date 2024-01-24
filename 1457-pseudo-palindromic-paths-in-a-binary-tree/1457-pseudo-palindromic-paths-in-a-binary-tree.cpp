@@ -12,7 +12,7 @@
 class Solution {
 public:
     
-    void solve(TreeNode* root, int* arr, int& ans, int check ){
+    void solve(TreeNode* root, int* arr, int& ans, int& check ){
         
         if(root == NULL){
             return;
@@ -27,16 +27,20 @@ public:
             check++;
         }
         
-        if((root->left==NULL && root->right==NULL) && (check==0 || check==1))
+        if(root->left==NULL && root->right==NULL){ 
+            if(check==0 || check==1)
                 ans++;
-        
-        solve(root->left,arr,ans,check);
-        solve(root->right,arr,ans,check);
+        }else{
+            solve(root->left,arr,ans,check);
+            solve(root->right,arr,ans,check);   
+        }
         
         if(arr[root->val]==1){
             arr[root->val] = 0;
+            check--;
         }else if(arr[root->val]==0){
             arr[root->val] = 1;
+            check++;
         }
         
     }
@@ -46,8 +50,8 @@ public:
         int arr[10];
         for(int i=0;i<10;i++)
             arr[i]=0;
-        int ans = 0;
-        solve(root,arr,ans,0);
+        int ans = 0,check=0;
+        solve(root,arr,ans,check);
         return ans;
         
     }
