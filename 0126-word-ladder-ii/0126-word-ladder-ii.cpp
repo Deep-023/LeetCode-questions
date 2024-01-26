@@ -1,69 +1,74 @@
 class Solution {
 public:
-    void dfs(string word, vector<string> &cur,
-    vector<vector<string>> &ans, map<string, int> &mp, 
-    unordered_set<string> &s, string &beginWord){
-        cur.push_back(word);
-        if(word == beginWord){
-            reverse(cur.begin(), cur.end());
-            ans.push_back(cur);
-            reverse(cur.begin(), cur.end());
-            cur.pop_back();
+    void dfs(string word, string& target, vector<string>& curr,unordered_map<string,int>& mp,
+    unordered_set<string>& st,vector<vector<string>>& ans){
+        
+        curr.push_back(word);
+        if(word == target){
+            reverse(curr.begin(),curr.end());
+            ans.push_back(curr);
+            reverse(curr.begin(),curr.end());
+            curr.pop_back();
             return;
         }
-        int curLevel = mp[word];
-        for(int i=0; i<word.size(); i++){
-            char original = word[i];
-            for(char c='a'; c<='z'; c++){
-                word[i] = c;
-                if(s.find(word) != s.end() && mp[word]==curLevel-1){
-                    dfs(word, cur, ans, mp, s, beginWord);
+        
+        int curlvl = mp[word];
+        for(int i=0;i<word.size();i++){
+            char og = word[i];
+            for(char j='a';j<='z';j++){
+                word[i] = j;
+                if(st.count(word) && mp[word] == curlvl-1){
+                    dfs(word,target,curr,mp,st,ans);
                 }
             }
-            word[i] = original;
+            word[i] = og;
         }
-        cur.pop_back();
+        curr.pop_back();
+        
     }
-    map<string, int> returnWordLevel(string &beginWord, string &endWord,
-    unordered_set<string> s){
-        map<string, int> mp;
+    
+    void bfs(string bWord,string eWord, unordered_set<string> st, unordered_map<string,int>& mp){
+        
         queue<string> q;
+        q.push(bWord);
+        st.erase(bWord);
+        mp[bWord] = 0;
         int level = 1;
-        q.push({beginWord});
-        mp[beginWord] = 0;
+        
         while(!q.empty()){
-            int size = q.size();
-            while(size--){
-                string word = q.front(); q.pop();
-                for(int i=0; i<word.size(); i++){
-                    char original = word[i];
-                    for(char c='a'; c<='z'; c++){
-                        word[i] = c;
-                        if(s.find(word) != s.end()){
-                            q.push(word);
+            int n = q.size();
+            while(n-- > 0){
+                string word = q.front();
+                q.pop();
+                
+                for(int i=0;i<word.size();i++){
+                    char og = word[i];
+                    for(char j='a';j<='z';j++){
+                        word[i] = j;
+                        if(st.count(word)){
                             mp[word] = level;
-                            if(s.find(word) != s.end())
-                                s.erase(word);
-                            if(word == endWord)
-                                return mp;
+                            q.push(word);
+                            st.erase(word);
+                            if(word==eWord)
+                                return;
                         }
                     }
-                    word[i] = original;
+                    word[i] = og;
                 }
+                
             }
             level++;
         }
-        return mp;
     }
+    
     vector<vector<string>> findLadders(string beginWord, string endWord, vector<string>& wordList) {
-        vector<vector<string>> ans;
-        unordered_set<string> s(wordList.begin(), wordList.end());
-        if(s.find(beginWord) != s.end())
-            s.erase(beginWord);
-        map<string, int> mp = returnWordLevel(beginWord, endWord, s);
-        vector<string> cur;
-        s.insert(beginWord);
-        dfs(endWord, cur, ans, mp, s, beginWord);
+        unordered_set<string> st(wordList.begin(),wordList.end());
+        unordered_map<string,int> mp;
+        vector<vector<string>>ans;
+        vector<string> curr;
+        bfs(beginWord,endWord,st,mp);
+        st.insert(beginWord);
+        dfs(endWord,beginWord,curr,mp,st,ans);
         return ans;
     }
 };
