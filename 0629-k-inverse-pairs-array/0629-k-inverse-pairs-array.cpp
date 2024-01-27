@@ -34,9 +34,9 @@ public:
         
         for(int i=1;i<=n;i++){
             for(int j=1;j<=k;j++){
-                curr[j] = (curr[j-1]+last[j])%mod;
+                curr[j] = (curr[j-1]+last[j])%mod; // last is prev state, so the k will be same and only n has increased mean we can place the number as it is in the end and curr[j-1] i.e k inverse pair if we add 5 it will make it k
                 if(j>=i)
-                    curr[j] = (curr[j]-last[j-i] + mod)%mod;
+                    curr[j] = (curr[j]-last[j-i] + mod)%mod; // +mod to eliminate mods of -ve numbers
             }
             last = curr;
         }
