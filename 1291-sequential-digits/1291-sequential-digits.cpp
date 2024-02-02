@@ -6,7 +6,7 @@ public:
         
         for(int i=0;i<9;i++){
             for(int j=i;j<9;j++){
-                long long num = stoi(s.substr(i,j-i+1));
+                int num = stoi(s.substr(i,j-i+1));
                 if(num>=low && num<=high)
                     ans.push_back(num);
                 else if(num>high)
