@@ -6,8 +6,8 @@ public:
             return 0;
         }
         
-        if(dp[ind] != -1)
-            return dp[ind];
+        if(dp[ind%k] != -1)
+            return dp[ind%k];
         
         int mx = 0;
         int ans = INT_MIN;
@@ -15,12 +15,12 @@ public:
             mx = max(mx,arr[i]);
             ans = max(ans, (mx*(i-ind+1)) + solve(i+1,n,arr,k,dp));
         }
-        return dp[ind]=ans;        
+        return dp[ind%k]=ans;        
     }
     
     int maxSumAfterPartitioning(vector<int>& arr, int k) {
         int n = arr.size();
-        vector<int>dp(n,-1);
+        vector<int>dp(k,-1);
         return solve(0,n,arr,k,dp);
         
     }
