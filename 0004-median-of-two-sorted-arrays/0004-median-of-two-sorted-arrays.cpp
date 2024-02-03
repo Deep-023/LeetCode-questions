@@ -24,11 +24,11 @@ public:
                 n1--;n2--;
             }
         }
-        while(i+j<=t && n1-- > 0){
+        while(i+j<=med && n1-- > 0){
             ans.push_back(nums1[i]);
             i++;
         }
-        while(i+j<=t && n2-- > 0){
+        while(i+j<=med && n2-- > 0){
             ans.push_back(nums2[j]);
             j++;
         }
