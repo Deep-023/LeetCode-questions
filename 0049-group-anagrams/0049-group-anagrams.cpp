@@ -10,7 +10,7 @@ public:
             mp[temp].push_back(strs[i]);
         }
         
-        for(auto i:mp){
+        for(auto& i:mp){
             ans.push_back(i.second);
         }
         
