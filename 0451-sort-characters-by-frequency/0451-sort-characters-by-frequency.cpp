@@ -12,9 +12,9 @@ public:
         for(int i=0;i<s.size();i++){
             if(s[i]>='a' && s[i]<='z')
                 arr[s[i]-'a']++;
-            if(s[i]>='A' && s[i]<='Z')
+            else if(s[i]>='A' && s[i]<='Z')
                 arr2[s[i]-'A']++;
-            if(s[0]>='0' && s[i]<='9')
+            else if(s[0]>='0' && s[i]<='9')
                 arr3[s[i]-'0']++;
                 
         }
