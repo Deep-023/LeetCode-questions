@@ -24,13 +24,14 @@ public:
                 pq.push({arr[i],i+'a'});
             if(arr2[i]>0)
                 pq.push({arr2[i],i+'A'});
-        }
-        
-        for(int i=0;i<10;i++){
-            if(arr3[i]>0){
+            
+            if(i<10){
+                if(arr3[i]>0){
                 pq.push({arr3[i],i+'0'});
+                }
             }
         }
+    
         
         int k=0;
         while(!pq.empty()){
