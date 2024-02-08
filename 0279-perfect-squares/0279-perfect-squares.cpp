@@ -1,14 +1,21 @@
 class Solution {
 public:
-    int solve(int n, vector<int>&dp){
+    
+    int solve(int n, vector<int>& dp){
         if(n==0)
             return 0;
-        if(dp[n]!=-1)
+        if(n<0)
+            return 1e9;
+        
+        if(dp[n] != -1)
             return dp[n];
-        int ans=INT_MAX;
-        for(int i=sqrt(n);i>0;i--)
-            ans = min(ans,solve(n-i*i,dp)+1);
-        return dp[n]=ans;
+        
+        int temp = 1e9+7;
+        for(int i=1;i*i<=n;i++){
+            temp = min(temp , solve(n-i*i,dp)+1);
+        }
+        
+        return dp[n]=temp;
     }
     
     int numSquares(int n) {
