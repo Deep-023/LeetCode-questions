@@ -1,22 +1,24 @@
 class Solution {
 public:
-    
-    bool isPalindrome(string s){
-        int n= s.size();
-        int i=0,j=n-1;
+    bool pal(string& ab){
+        int i=0;
+        int j=ab.size()-1;
+        
         while(i<j){
-            if(s[i] != s[j])
+            if(ab[i++]!=ab[j--])
                 return false;
-            i++;j--;
         }
+        
         return true;
     }
+    
     string firstPalindrome(vector<string>& words) {
-        int n= words.size();
-        for(int i=0;i<n;i++){
-            if(isPalindrome(words[i]))
+        
+        for(int i=0;i<words.size();i++){
+            if(pal(words[i]))
                 return words[i];
         }
+        
         return "";
     }
 };
