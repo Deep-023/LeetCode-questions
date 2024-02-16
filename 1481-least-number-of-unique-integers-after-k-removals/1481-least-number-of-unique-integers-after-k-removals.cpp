@@ -5,13 +5,13 @@ public:
         for(int i=0;i<arr.size();i++){
             mp[arr[i]]++;
         }
-        priority_queue<pair<int,int>,vector<pair<int,int>>,greater<pair<int,int>>> pq;
+        priority_queue<int,vector<int>,greater<int>> pq;
         for(auto& i:mp){
-            pq.push({i.second,i.first});
+            pq.push(i.second);
         }
         
-        while(!pq.empty() && k>=pq.top().first){
-                k -= pq.top().first;
+        while(!pq.empty() && k>=pq.top()){
+                k -= pq.top();
                 pq.pop();
         }
         
