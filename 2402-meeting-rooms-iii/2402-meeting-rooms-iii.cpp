@@ -3,30 +3,35 @@ public:
     int mostBooked(int n, vector<vector<int>>& meetings) {
         sort(meetings.begin(),meetings.end());
         vector<int> count(n,0);
-        vector<long long> top(n,0);
+        vector<long long> top(n,-1);
         int mxCount = 0;
         
         for(int i=0;i<meetings.size();i++){
             pair<long long,int> mn = {1e18,-1};
-            bool flag = false;
             for(int j=0;j<n;j++){
-                if(top[j]<mn.first){
+                if(top[j]==-1){
                     mn.second = j;
-                    mn.first = top[j];
-                }
-                if(top[j]<=meetings[i][0]){
-                    flag=true;
-                    count[j]++;
-                    mxCount = max(mxCount,count[j]);
-                    top[j]=meetings[i][1];
                     break;
+                }
+                long long diff = top[j]-meetings[i][0];
+                if(diff <= 0){
+                    mn = {diff,j};
+                    break;
+                }
+                if(diff < mn.first){
+                    mn = {diff,j};
                 }
             }
             
-            if(flag==false){
+            if(top[mn.second] == -1){
                 count[mn.second]++;
                 mxCount = max(mxCount,count[mn.second]);
-                top[mn.second]+=(1ll*(meetings[i][1]-meetings[i][0]));
+                top[mn.second] = meetings[i][1];
+            }else{
+            count[mn.second]++;
+            mxCount = max(mxCount,count[mn.second]);
+            top[mn.second] = top[mn.second]-meetings[i][0] < 0 ? meetings[i][1] : meetings[i][1]+mn.first; 
+            
             }
         }
         
