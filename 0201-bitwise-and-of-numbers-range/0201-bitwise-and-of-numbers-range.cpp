@@ -2,13 +2,15 @@ class Solution {
 public:
     int rangeBitwiseAnd(int left, int right) {
         
-        int number = 15,ans=0; 
+        int ans=0; 
         if(left==0 || right==0)
             return 0;
+        if(left==right)
+            return left;
         
-        int n = (int)(log2(left)); 
+        int n = log2(left); 
         string a = bitset<64>(left).to_string().substr(64 - n - 1);
-        n = (int)(log2(right)); 
+        n = log2(right); 
         string b = bitset<64>(right).to_string().substr(64 - n - 1);
         
         if(a.size()!=b.size()){
