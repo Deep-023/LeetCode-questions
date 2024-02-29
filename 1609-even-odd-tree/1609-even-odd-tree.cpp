@@ -17,28 +17,23 @@ public:
         q.push(root);
         while(!q.empty()){
             int size = q.size(),mx;
-            
-            if(flag)
-                mx = INT_MAX;
-            else
-                mx = INT_MIN;
+            mx = flag==1 ? INT_MAX : INT_MIN;
             
             while(size){
                 TreeNode* top = q.front();
+                int num = top->val;
                 q.pop();
                 
                 if(flag == 1){
-                    if(mx>top->val && !(top->val&1)){
-                        mx = top->val;
+                    if(mx>num && !(num&1)){
+                        mx = num;
                     }else{
-                        //cout<<mx<<" "<<top->val<<" "<<flag<<endl;
                         return false;
                     }
                 }else{
-                    if(mx<top->val && top->val&1){
-                        mx = top->val;
+                    if(mx<num && num&1){
+                        mx = num;
                     }else{
-                        //cout<<mx<<" "<<top->val<<" "<<flag<<endl;
                         return false;
                     }
                 }
@@ -52,7 +47,6 @@ public:
                 size--;
             }
             flag = !flag;
-            
         }
         
         return true;
