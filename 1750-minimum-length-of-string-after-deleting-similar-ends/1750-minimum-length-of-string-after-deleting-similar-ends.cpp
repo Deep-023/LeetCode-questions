@@ -3,25 +3,16 @@ public:
     int minimumLength(string s) {
         int i=0,j=s.size()-1;
         
-        while(i<j){
-            if(s[i]==s[j]){
-                while(i<j && s[i]==s[i+1]){
-                    i++;
-                }
-                while(j>i && s[j]==s[j-1]){
-                    j--;
-                }
-            }else{
-                break;
+        while(i<j && s[i]==s[j]){
+            char a = s[i];
+            while(i<=j && s[i]==a){
+                i++;
             }
-            
-            if(j==i)
-                return 0;
-            
-            i++;
-            j--;
+            while(i<=j && s[j]==a){
+                j--;
+            }
         }
         
-        return j-i+1;
+        return j-i+1 > 0 ? j-i+1 : 0;
     }
 };
