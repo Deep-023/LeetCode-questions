@@ -20,8 +20,8 @@ public:
             
             if(fastPtr == NULL)
                 return slowPtr;
-            else
-                fastPtr = fastPtr->next;
+            
+            fastPtr = fastPtr->next;
         }
         
         return slowPtr;
