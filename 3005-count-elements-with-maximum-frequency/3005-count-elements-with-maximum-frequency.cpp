@@ -1,7 +1,8 @@
 class Solution {
 public:
     int maxFrequencyElements(vector<int>& nums) {
-        vector<int> count(101,0);
+        int count[101];
+        memset(count,0,sizeof(count));
         int n = nums.size(),mx = INT_MIN;
         
         for(int i=0;i<n;i++){
