@@ -9,7 +9,7 @@ public:
             if(i<=r){
                 z[i] = min(z[i-l],r-i+1);
             }
-            for(int &j = z[i]; i+j<n && s[j]==s[i+j];j++)
+            for(int &j = z[i]; i+j<n && s[j]==s[i+j];j++);
             if (z[i]>r-i+1){
                 l=i;
                 r=i+z[i]-1;
