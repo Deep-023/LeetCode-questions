@@ -28,9 +28,9 @@ public:
             vector<int> z = zIndex(words[i]);
             int64_t val = 0;
             int n = words[i].size();
-            for(int j=1;j<=n;j++){
-                val = ((27LL*val)%mod + (1LL + words[i][j-1]-'a'))%mod;
-                if(z[n-j]==j){
+            for(int j=0;j<n;j++){
+                val = ((27LL*val)%mod + (1LL + words[i][j]-'a'))%mod;
+                if(z[n-j-1]==j+1){
                     ans += hash[val];
                 }
             }
