@@ -3,8 +3,7 @@ public:
     
     vector<int> zIndex(string& s){
         int n = s.size();
-        vector<int> z(n,0);
-        z[0] = 0;
+        vector<int> z(n);
         for(int i=1,l=0,r=0;i<n;i++){
             if(i<=r){
                 z[i] = min(z[i-l],r-i+1);
