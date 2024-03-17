@@ -26,7 +26,7 @@ public:
         
         int bit_x = (x >> height) & 1;
         
-        if (root->t[1-bit_x] != nullptr) {
+        if (root->t[!bit_x] != nullptr) {
             int v = dfs(root->t[1-bit_x], x, limit, (value | ((1-bit_x) << height)), height-1);
             if (v >= 0) return v;
         }
