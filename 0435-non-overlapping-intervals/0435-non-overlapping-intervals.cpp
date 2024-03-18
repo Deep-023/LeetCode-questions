@@ -1,7 +1,7 @@
 class Solution {
 public:
     
-    static bool comp(const vector<int> a, const vector<int> b){
+    static bool comp(vector<int>& a, vector<int>& b){
        return a[1]<b[1];
     }
     
@@ -12,9 +12,8 @@ public:
             if(mx <= intervals[i][0]){
                 mx = intervals[i][1];
                 continue;
-            }else{
+            }else
                 ans++;
-            }
         }
         
         return ans;
