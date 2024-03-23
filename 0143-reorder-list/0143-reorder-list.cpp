@@ -31,16 +31,16 @@ public:
             rev = next;
         }
         rev = prev;
-        ListNode* curr = head, *revNext = NULL;
+        ListNode* curr = head;
         
         while(curr != NULL && rev!= NULL){
-            revNext = rev->next;
+            next = rev->next;
             rev->next = curr->next;
             curr->next = rev;
             curr = curr->next;
             if(curr != NULL)
                 curr = curr->next;
-            rev = revNext;
+            rev = next;
         } 
     }
 };
