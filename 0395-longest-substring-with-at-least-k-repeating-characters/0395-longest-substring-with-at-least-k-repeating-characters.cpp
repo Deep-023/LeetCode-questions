@@ -1,7 +1,7 @@
 class Solution {
 public:
     
-    int solve(string s, int k, int l, int r){
+    int solve(string& s, int k, int l, int r){
         
         if(l>=r)
             return 0;
