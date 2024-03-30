@@ -1,23 +1,23 @@
 class Solution {
 public:
-    int subarraysWithKDistinct(vector<int>& nums, int k) {
-        int n = nums.size();
-        int least=0, max=0,ans=0;
-        unordered_map<int,int> count;
-        for(int right = 0;right<n ;right++){
-            if(++count[nums[right]]==1){
-                if(--k < 0){
-                    count[nums[max++]]--;
-                    least = max;
-                }
+    
+    int solve(vector<int>& nums, int k){
+        unordered_map<int,int> mp;
+        int n=nums.size(),left=0,ans = 0;
+        for(int i=0;i<n;i++){
+            if(mp[nums[i]]++ == 0)
+                k--;
+            while(k<0){
+                if(--mp[nums[left++]] == 0)
+                    k++;
             }
             
-            if(k<=0){
-                while(count[nums[max]] > 1)
-                    --count[nums[max++]];
-                ans += max-least+1;
-            }
+            ans += i-left+1;
         }
         return ans;
+    }
+    
+    int subarraysWithKDistinct(vector<int>& nums, int k) {          
+        return solve(nums,k)-solve(nums,k-1);
     }
 };
