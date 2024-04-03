@@ -12,27 +12,24 @@ public:
         }
         bool  check = false ;
         while((end<n) && (start<n)){
-           if(!check){
-           if(map2[s[end]]>0){
-               if(map[s[end]] < map2[s[end]]){
-                   temp++;
+            if(map2[s[end]]>0){
+                   if(map[s[end]] < map2[s[end]]){
+                       temp++;
+                   }
+                   map[s[end]]++;
                }
-               map[s[end]]++;
-           }
-           }
-           if(end == n-1) check = true ;
            while(temp==m){
-             if(mini > min(mini,end-start+1)){
-                mini = min(mini,end-start+1) ;
-                minStart = start ;
-             }
-             if(map2[s[start]]>0){
-              map[s[start]]--;
-              if(map[s[start]] < map2[s[start]]){
-                    temp--;
-              } 
-             }
-             start++;
+                if(mini > min(mini,end-start+1)){
+                        mini = min(mini,end-start+1) ;
+                        minStart = start ;
+                }
+                if(map2[s[start]]>0){
+                      map[s[start]]--;
+                      if(map[s[start]] < map2[s[start]]){
+                            temp--;
+                      } 
+                }
+                start++;
            }
            end++;
            if(start>end) end++;
