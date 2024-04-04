@@ -5,9 +5,10 @@ public:
         for(int i=0;i<s.size();i++){
             if(s[i]=='(')
                 count++;
-            if(s[i]==')')
+            else if(s[i]==')'){
+                ans = max(ans,count);
                 count--;
-            ans = max(ans,count);
+            }
         }
         return ans;
     }
