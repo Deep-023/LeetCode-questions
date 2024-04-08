@@ -12,11 +12,10 @@ public:
                 if(q.front() == sandwiches[j]){
                     b = true;
                     j++;
-                    q.pop();
-                }else{
+                }else
                     q.push(q.front());
-                    q.pop();
-                }
+                    
+                q.pop();
             }
             if(b == false)
                 return q.size();
