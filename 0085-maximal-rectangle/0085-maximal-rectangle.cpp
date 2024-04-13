@@ -3,7 +3,7 @@ public:
     
     int largestHisto(vector<int>& mat){
         int n = mat.size();
-        vector<int> right(n); vector<int> left(n);
+        vector<int> right(n);
         stack<int> st;
         st.push(-1);
         
@@ -17,18 +17,15 @@ public:
         while(st.top() != -1)
                 st.pop();
         
-        for(int i=0;i<n;i++){
-            while(st.top() != -1 && mat[i]<=mat[st.top()])
-                st.pop();
-            left[i] = st.top();
-            st.push(i);
-        }
-        
         int ans = 0;
         
         for(int i=0;i<n;i++){
+            while(st.top() != -1 && mat[i]<=mat[st.top()])
+                st.pop();
+            
             if(right[i]==-1) right[i]=n;
-            ans = max(ans,mat[i]*(right[i]-left[i]-1));
+            ans = max(ans,mat[i]*(right[i]-st.top()-1));
+            st.push(i);
         }
         
         return ans;
