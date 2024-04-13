@@ -1,36 +1,32 @@
 class Solution {
 public:
-    int maximalRectangle(vector<vector<char>>& mat) {
-    
-        int n = mat.size(),m=mat[0].size();
+    int maximalRectangle(vector<vector<char>>& matrix) {
+        int n = matrix.size(), m=matrix[0].size();
         vector<vector<int>> preSum(n,vector<int>(m,0));
         
+        for(int i=0;i<n;i++)
+            for(int j=0;j<m;j++)
+                if(matrix[i][j]=='1')
+                    preSum[i][j] = 1 + (j>0 ? preSum[i][j-1] : 0);
+        
+        int ans = 0;
+        
         for(int i=0;i<n;i++){
             for(int j=0;j<m;j++){
-                preSum[i][j] = mat[i][j] == '0' ? 0 : ( j>0 ? preSum[i][j-1]+1 : 1 );
-            }
-        }
-        
-        int ans = INT_MIN;
-        
-        for(int i=0;i<n;i++){
-            for(int j=0;j<m;j++){
-                if(preSum[i][j] != 0){
+                if(preSum[i][j] > 0){
                     int mn = INT_MAX;
                     for(int k=i;k<n;k++){
-                        if(preSum[k][j] == 0)
+                        if(preSum[k][j]==0)
                             break;
-                        else{
-                            mn = min(mn,preSum[k][j]);
-                            ans = max(ans,(k-i+1)*mn);
-                        }
-                    }   
+                        mn = min(mn,preSum[k][j]);
+                        ans = max(ans,mn*(k-i+1));
+                    }
                 }
             }
         }
         
+        return ans;
         
-        return ans==INT_MIN ? 0 : ans;
         
     }
 };
