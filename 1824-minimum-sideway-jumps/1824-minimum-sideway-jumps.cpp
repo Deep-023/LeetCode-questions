@@ -23,7 +23,27 @@ public:
     }
     
     int minSideJumps(vector<int>& obstacles) {
+        int n = obstacles.size();
         vector<vector<int>>dp(4,vector<int>(obstacles.size()+1,-1));
-        return solve(obstacles,0,2,dp);
+        
+        dp[0][n-1]=0;dp[1][n-1]=0;dp[2][n-1]=0;dp[3][n-1]=0;
+        
+        for(int i=n-2;i>=0;i--){
+            for(int j=1;j<4;j++){
+                if(obstacles[i+1] != j)
+                    dp[j][i] = dp[j][i+1];
+                else{
+                    int ans = INT_MAX;
+                    for(int k=1;k<=3;k++){
+                        if(k != obstacles[i] && j != k)
+                            ans = min(ans,1+dp[k][i+1]);
+                    }
+                    dp[j][i] = ans;
+                }
+            }
+        }
+        
+        
+        return dp[2][0];
     }
 };
