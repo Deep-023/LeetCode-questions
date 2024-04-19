@@ -11,29 +11,18 @@
  */
 class Solution {
 public:
-    
-    void solve(TreeNode* root, string& ans){
-        if(root==NULL)
-            return;
-        ans += to_string(root->val);
-        
-        if(root->left == NULL && root->right==NULL)
-            return;
-        
-        ans.push_back('(');
-        solve(root->left,ans);
-        ans.push_back(')');
-        
-        if(root->right != NULL){
-            ans.push_back('(');
-            solve(root->right,ans);
-            ans.push_back(')');
-        }
-    }
-    
     string tree2str(TreeNode* root) {
-        string ans;
-        solve(root,ans);
-        return ans;
+        if(root==NULL)
+            return "";
+        
+        string temp = to_string(root->val);
+
+        if(root->left || root->right)
+        temp = temp+"("+ tree2str(root->left) +")";
+
+        if(root->right)
+        temp = temp+"("+ tree2str(root->right) +")";
+
+        return temp;
     }
 };
