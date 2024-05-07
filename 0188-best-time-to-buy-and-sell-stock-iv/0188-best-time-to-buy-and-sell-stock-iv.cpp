@@ -1,28 +1,27 @@
 class Solution {
 public:
-    
-    int solve(vector<vector<vector<int>>>& dp, int buy, int cap, int ind, int n, vector<int>& prices)
-    { 
-        if(cap==0|| ind==n)
+    int dp[1001][2][101];
+    int solve(vector<int>& prices,int k, int idx,int buy){
+        if(idx>=prices.size() || k<0)
             return 0;
-    
-        if(dp[ind][buy][cap] != -1)
-            return dp[ind][buy][cap];
-    
-        int profit;
-    
-        if(buy)
-            profit = max(solve(dp,1,cap,ind+1,n,prices), -prices[ind]+solve(dp,0,cap,ind+1,n,prices));
-        else
-            profit = max(solve(dp,0,cap,ind+1,n,prices), prices[ind]+solve(dp,1,cap-1,ind+1,n,prices));
-    
-        return dp[ind][buy][cap] = profit;
+        
+        if(dp[idx][buy][k]!=-1)
+            return dp[idx][buy][k];
+        
+        int ans = 0;
+        if(buy){
+            int skip = solve(prices,k,idx+1,buy);
+            int leliya = -prices[idx]+solve(prices,k,idx+1,!buy);
+            ans = max(skip,leliya);
+        }else{
+            int skip = solve(prices,k,idx+1,buy);
+            int bechdiya = prices[idx]+solve(prices,k-1,idx+1,!buy);
+            ans = max(skip,bechdiya);
+        }
+        return dp[idx][buy][k]=ans;
     }
-    
-    
     int maxProfit(int k, vector<int>& prices) {
-        int n= prices.size();
-        vector<vector<vector<int>>> dp(n, vector<vector<int>>(2,vector<int>(k+1,-1)));
-        return solve(dp,1,k,0,n,prices);
+        memset(dp,-1,sizeof(dp));
+        return solve(prices,k-1,0,1);   
     }
 };
