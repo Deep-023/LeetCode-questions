@@ -49,7 +49,7 @@ public:
         stringstream s(sen);
         string word;
 
-        while(getline(s,word,' ')){
+        while(s>>word){
             if(ans.size()>0) ans+=" ";
             ans += check(word,root);
         }
