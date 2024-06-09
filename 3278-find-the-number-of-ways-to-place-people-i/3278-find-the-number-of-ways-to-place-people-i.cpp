@@ -8,13 +8,14 @@ public:
         sort(points.begin(), points.end(), comp);
         int ans = 0;
         for(int i = 0; i < points.size(); ++i){
+            int cx = points[i][0], cy = points[i][1];
+            int k = -1e5;
             for(int j = i+1; j < points.size(); ++j){
-                if(points[i][1] >= points[j][1]){
-                    int flag = 1;
-                    for(int k = i+1; k < j; ++k){
-                        if(points[k][1] <= points[i][1] && points[k][1] >= points[j][1] ) flag = 0;
-                    }
-                    if(flag) ans++;
+                int tx = points[j][0], ty = points[j][1];
+                if(ty>cy) continue;
+                if(ty>k){
+                    k = ty;
+                    ans++;
                 }
             }
         }
