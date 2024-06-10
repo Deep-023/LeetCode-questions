@@ -54,6 +54,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0876-hand-of-straights](https://github.com/Deep-023/LeetCode-questions/tree/master/0876-hand-of-straights) |
 | [1137-height-checker](https://github.com/Deep-023/LeetCode-questions/tree/master/1137-height-checker) |
+| [3218-find-number-of-coins-to-place-in-tree-nodes](https://github.com/Deep-023/LeetCode-questions/tree/master/3218-find-number-of-coins-to-place-in-tree-nodes) |
 | [3277-find-the-number-of-ways-to-place-people-ii](https://github.com/Deep-023/LeetCode-questions/tree/master/3277-find-the-number-of-ways-to-place-people-ii) |
 | [3278-find-the-number-of-ways-to-place-people-i](https://github.com/Deep-023/LeetCode-questions/tree/master/3278-find-the-number-of-ways-to-place-people-i) |
 # Trie
@@ -115,6 +116,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Deep-023/LeetCode-questions/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/Deep-023/LeetCode-questions/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/Deep-023/LeetCode-questions/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [3218-find-number-of-coins-to-place-in-tree-nodes](https://github.com/Deep-023/LeetCode-questions/tree/master/3218-find-number-of-coins-to-place-in-tree-nodes) |
 # Binary Tree
 |  |
 | ------- |
@@ -127,6 +129,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0124-binary-tree-maximum-path-sum](https://github.com/Deep-023/LeetCode-questions/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/Deep-023/LeetCode-questions/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [3218-find-number-of-coins-to-place-in-tree-nodes](https://github.com/Deep-023/LeetCode-questions/tree/master/3218-find-number-of-coins-to-place-in-tree-nodes) |
 # Design
 |  |
 | ------- |
@@ -135,3 +138,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0124-binary-tree-maximum-path-sum](https://github.com/Deep-023/LeetCode-questions/tree/master/0124-binary-tree-maximum-path-sum) |
+| [3218-find-number-of-coins-to-place-in-tree-nodes](https://github.com/Deep-023/LeetCode-questions/tree/master/3218-find-number-of-coins-to-place-in-tree-nodes) |
+# Heap (Priority Queue)
+|  |
+| ------- |
+| [3218-find-number-of-coins-to-place-in-tree-nodes](https://github.com/Deep-023/LeetCode-questions/tree/master/3218-find-number-of-coins-to-place-in-tree-nodes) |
