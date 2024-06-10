@@ -20,13 +20,13 @@ public:
         auto[r0,r1,r2,r3] = isBST(root->right);
 
         int subSum = 0;
-        if((root->left==NULL || l3 < root->val) && (root->right==NULL || r2 > root->val) && l0 && r0){
+        if(l0 && r0 && (root->left==NULL || l3 < root->val) && (root->right==NULL || r2 > root->val)){
             subSum = l1+r1+root->val;
             ans = max(ans,subSum);
             return {true,subSum,min(root->val,l2),max(root->val,r3)};
         }
 
-        return {false,max(l2,r2),min(root->val,l2),max(root->val,r3)};
+        return {false,max(l1,r1),min(root->val,l2),max(root->val,r3)};
     }
 
 
