@@ -6,11 +6,13 @@ public:
         return i>=0 && j>=0 && i<n && j<m;
     }
     int orangesRotting(vector<vector<int>>& grid) {
-        int ans = 0,n=grid.size(),m=grid[0].size();
+        int ans = 0,n=grid.size(),m=grid[0].size(),count=0;
         queue<pp> q;
         for(int i=0;i<n;i++)
-            for(int j=0;j<m;j++)
+            for(int j=0;j<m;j++){
                 if(grid[i][j]==2) q.push({i,j,0});
+                else if(grid[i][j]==1) count++;
+            }
 
         while(!q.empty()){
             auto [i,j,cost] = q.front();
@@ -22,14 +24,13 @@ public:
                 if(isSafe(newi,newj,n,m) && grid[newi][newj] == 1){
                     grid[newi][newj]=2;
                     q.push({newi,newj,cost+1});
+                    count--;
                 }
             }
             ans = max(ans,cost);
         }
 
-        for(int i=0;i<n;i++)
-            for(int j=0;j<m;j++)
-                if(grid[i][j]==1) return -1;
+        if(count != 0) return -1;
 
         return ans;   
     }
