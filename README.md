@@ -116,6 +116,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Deep-023/LeetCode-questions/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/Deep-023/LeetCode-questions/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/Deep-023/LeetCode-questions/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [1475-maximum-sum-bst-in-binary-tree](https://github.com/Deep-023/LeetCode-questions/tree/master/1475-maximum-sum-bst-in-binary-tree) |
 | [3218-find-number-of-coins-to-place-in-tree-nodes](https://github.com/Deep-023/LeetCode-questions/tree/master/3218-find-number-of-coins-to-place-in-tree-nodes) |
 # Binary Tree
 |  |
@@ -124,11 +125,13 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Deep-023/LeetCode-questions/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/Deep-023/LeetCode-questions/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/Deep-023/LeetCode-questions/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [1475-maximum-sum-bst-in-binary-tree](https://github.com/Deep-023/LeetCode-questions/tree/master/1475-maximum-sum-bst-in-binary-tree) |
 # Depth-First Search
 |  |
 | ------- |
 | [0124-binary-tree-maximum-path-sum](https://github.com/Deep-023/LeetCode-questions/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/Deep-023/LeetCode-questions/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [1475-maximum-sum-bst-in-binary-tree](https://github.com/Deep-023/LeetCode-questions/tree/master/1475-maximum-sum-bst-in-binary-tree) |
 | [3218-find-number-of-coins-to-place-in-tree-nodes](https://github.com/Deep-023/LeetCode-questions/tree/master/3218-find-number-of-coins-to-place-in-tree-nodes) |
 # Design
 |  |
@@ -138,8 +141,13 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0124-binary-tree-maximum-path-sum](https://github.com/Deep-023/LeetCode-questions/tree/master/0124-binary-tree-maximum-path-sum) |
+| [1475-maximum-sum-bst-in-binary-tree](https://github.com/Deep-023/LeetCode-questions/tree/master/1475-maximum-sum-bst-in-binary-tree) |
 | [3218-find-number-of-coins-to-place-in-tree-nodes](https://github.com/Deep-023/LeetCode-questions/tree/master/3218-find-number-of-coins-to-place-in-tree-nodes) |
 # Heap (Priority Queue)
 |  |
 | ------- |
 | [3218-find-number-of-coins-to-place-in-tree-nodes](https://github.com/Deep-023/LeetCode-questions/tree/master/3218-find-number-of-coins-to-place-in-tree-nodes) |
+# Binary Search Tree
+|  |
+| ------- |
+| [1475-maximum-sum-bst-in-binary-tree](https://github.com/Deep-023/LeetCode-questions/tree/master/1475-maximum-sum-bst-in-binary-tree) |
