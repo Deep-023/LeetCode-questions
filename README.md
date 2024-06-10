@@ -101,6 +101,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/Deep-023/LeetCode-questions/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/Deep-023/LeetCode-questions/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [1036-rotting-oranges](https://github.com/Deep-023/LeetCode-questions/tree/master/1036-rotting-oranges) |
+| [1296-kth-ancestor-of-a-tree-node](https://github.com/Deep-023/LeetCode-questions/tree/master/1296-kth-ancestor-of-a-tree-node) |
 # Matrix
 |  |
 | ------- |
@@ -116,6 +117,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Deep-023/LeetCode-questions/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/Deep-023/LeetCode-questions/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/Deep-023/LeetCode-questions/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [1296-kth-ancestor-of-a-tree-node](https://github.com/Deep-023/LeetCode-questions/tree/master/1296-kth-ancestor-of-a-tree-node) |
 | [1475-maximum-sum-bst-in-binary-tree](https://github.com/Deep-023/LeetCode-questions/tree/master/1475-maximum-sum-bst-in-binary-tree) |
 | [3218-find-number-of-coins-to-place-in-tree-nodes](https://github.com/Deep-023/LeetCode-questions/tree/master/3218-find-number-of-coins-to-place-in-tree-nodes) |
 # Binary Tree
@@ -131,16 +133,19 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0124-binary-tree-maximum-path-sum](https://github.com/Deep-023/LeetCode-questions/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/Deep-023/LeetCode-questions/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [1296-kth-ancestor-of-a-tree-node](https://github.com/Deep-023/LeetCode-questions/tree/master/1296-kth-ancestor-of-a-tree-node) |
 | [1475-maximum-sum-bst-in-binary-tree](https://github.com/Deep-023/LeetCode-questions/tree/master/1475-maximum-sum-bst-in-binary-tree) |
 | [3218-find-number-of-coins-to-place-in-tree-nodes](https://github.com/Deep-023/LeetCode-questions/tree/master/3218-find-number-of-coins-to-place-in-tree-nodes) |
 # Design
 |  |
 | ------- |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/Deep-023/LeetCode-questions/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [1296-kth-ancestor-of-a-tree-node](https://github.com/Deep-023/LeetCode-questions/tree/master/1296-kth-ancestor-of-a-tree-node) |
 # Dynamic Programming
 |  |
 | ------- |
 | [0124-binary-tree-maximum-path-sum](https://github.com/Deep-023/LeetCode-questions/tree/master/0124-binary-tree-maximum-path-sum) |
+| [1296-kth-ancestor-of-a-tree-node](https://github.com/Deep-023/LeetCode-questions/tree/master/1296-kth-ancestor-of-a-tree-node) |
 | [1475-maximum-sum-bst-in-binary-tree](https://github.com/Deep-023/LeetCode-questions/tree/master/1475-maximum-sum-bst-in-binary-tree) |
 | [3218-find-number-of-coins-to-place-in-tree-nodes](https://github.com/Deep-023/LeetCode-questions/tree/master/3218-find-number-of-coins-to-place-in-tree-nodes) |
 # Heap (Priority Queue)
@@ -150,4 +155,5 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 # Binary Search Tree
 |  |
 | ------- |
+| [1296-kth-ancestor-of-a-tree-node](https://github.com/Deep-023/LeetCode-questions/tree/master/1296-kth-ancestor-of-a-tree-node) |
 | [1475-maximum-sum-bst-in-binary-tree](https://github.com/Deep-023/LeetCode-questions/tree/master/1475-maximum-sum-bst-in-binary-tree) |
