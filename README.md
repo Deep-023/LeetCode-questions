@@ -18,6 +18,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 # Hash Table
 |  |
 | ------- |
+| [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Deep-023/LeetCode-questions/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0409-longest-palindrome](https://github.com/Deep-023/LeetCode-questions/tree/master/0409-longest-palindrome) |
 | [0523-continuous-subarray-sum](https://github.com/Deep-023/LeetCode-questions/tree/master/0523-continuous-subarray-sum) |
 | [0648-replace-words](https://github.com/Deep-023/LeetCode-questions/tree/master/0648-replace-words) |
@@ -34,6 +35,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 # Array
 |  |
 | ------- |
+| [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Deep-023/LeetCode-questions/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0135-candy](https://github.com/Deep-023/LeetCode-questions/tree/master/0135-candy) |
 | [0523-continuous-subarray-sum](https://github.com/Deep-023/LeetCode-questions/tree/master/0523-continuous-subarray-sum) |
 | [0648-replace-words](https://github.com/Deep-023/LeetCode-questions/tree/master/0648-replace-words) |
@@ -99,3 +101,15 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1036-rotting-oranges](https://github.com/Deep-023/LeetCode-questions/tree/master/1036-rotting-oranges) |
+# Divide and Conquer
+|  |
+| ------- |
+| [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Deep-023/LeetCode-questions/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
+# Tree
+|  |
+| ------- |
+| [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Deep-023/LeetCode-questions/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
+# Binary Tree
+|  |
+| ------- |
+| [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Deep-023/LeetCode-questions/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
