@@ -123,6 +123,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1296-kth-ancestor-of-a-tree-node](https://github.com/Deep-023/LeetCode-questions/tree/master/1296-kth-ancestor-of-a-tree-node) |
 | [1475-maximum-sum-bst-in-binary-tree](https://github.com/Deep-023/LeetCode-questions/tree/master/1475-maximum-sum-bst-in-binary-tree) |
 | [1692-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/Deep-023/LeetCode-questions/tree/master/1692-number-of-ways-to-reorder-array-to-get-same-bst) |
+| [1820-number-of-ways-to-reconstruct-a-tree](https://github.com/Deep-023/LeetCode-questions/tree/master/1820-number-of-ways-to-reconstruct-a-tree) |
 | [3218-find-number-of-coins-to-place-in-tree-nodes](https://github.com/Deep-023/LeetCode-questions/tree/master/3218-find-number-of-coins-to-place-in-tree-nodes) |
 # Binary Tree
 |  |
@@ -176,3 +177,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1692-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/Deep-023/LeetCode-questions/tree/master/1692-number-of-ways-to-reorder-array-to-get-same-bst) |
+# Graph
+|  |
+| ------- |
+| [1820-number-of-ways-to-reconstruct-a-tree](https://github.com/Deep-023/LeetCode-questions/tree/master/1820-number-of-ways-to-reconstruct-a-tree) |
