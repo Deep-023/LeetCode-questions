@@ -27,6 +27,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1016-subarray-sums-divisible-by-k](https://github.com/Deep-023/LeetCode-questions/tree/master/1016-subarray-sums-divisible-by-k) |
 | [1044-find-common-characters](https://github.com/Deep-023/LeetCode-questions/tree/master/1044-find-common-characters) |
 | [1217-relative-sort-array](https://github.com/Deep-023/LeetCode-questions/tree/master/1217-relative-sort-array) |
+| [2060-merge-bsts-to-create-single-bst](https://github.com/Deep-023/LeetCode-questions/tree/master/2060-merge-bsts-to-create-single-bst) |
 | [3265-maximum-good-subarray-sum](https://github.com/Deep-023/LeetCode-questions/tree/master/3265-maximum-good-subarray-sum) |
 # Greedy
 |  |
@@ -128,6 +129,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1475-maximum-sum-bst-in-binary-tree](https://github.com/Deep-023/LeetCode-questions/tree/master/1475-maximum-sum-bst-in-binary-tree) |
 | [1692-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/Deep-023/LeetCode-questions/tree/master/1692-number-of-ways-to-reorder-array-to-get-same-bst) |
 | [1820-number-of-ways-to-reconstruct-a-tree](https://github.com/Deep-023/LeetCode-questions/tree/master/1820-number-of-ways-to-reconstruct-a-tree) |
+| [2060-merge-bsts-to-create-single-bst](https://github.com/Deep-023/LeetCode-questions/tree/master/2060-merge-bsts-to-create-single-bst) |
 | [3218-find-number-of-coins-to-place-in-tree-nodes](https://github.com/Deep-023/LeetCode-questions/tree/master/3218-find-number-of-coins-to-place-in-tree-nodes) |
 # Binary Tree
 |  |
@@ -138,6 +140,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/Deep-023/LeetCode-questions/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [1475-maximum-sum-bst-in-binary-tree](https://github.com/Deep-023/LeetCode-questions/tree/master/1475-maximum-sum-bst-in-binary-tree) |
 | [1692-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/Deep-023/LeetCode-questions/tree/master/1692-number-of-ways-to-reorder-array-to-get-same-bst) |
+| [2060-merge-bsts-to-create-single-bst](https://github.com/Deep-023/LeetCode-questions/tree/master/2060-merge-bsts-to-create-single-bst) |
 # Depth-First Search
 |  |
 | ------- |
@@ -145,6 +148,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/Deep-023/LeetCode-questions/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [1296-kth-ancestor-of-a-tree-node](https://github.com/Deep-023/LeetCode-questions/tree/master/1296-kth-ancestor-of-a-tree-node) |
 | [1475-maximum-sum-bst-in-binary-tree](https://github.com/Deep-023/LeetCode-questions/tree/master/1475-maximum-sum-bst-in-binary-tree) |
+| [2060-merge-bsts-to-create-single-bst](https://github.com/Deep-023/LeetCode-questions/tree/master/2060-merge-bsts-to-create-single-bst) |
 | [3218-find-number-of-coins-to-place-in-tree-nodes](https://github.com/Deep-023/LeetCode-questions/tree/master/3218-find-number-of-coins-to-place-in-tree-nodes) |
 # Design
 |  |
@@ -169,6 +173,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1296-kth-ancestor-of-a-tree-node](https://github.com/Deep-023/LeetCode-questions/tree/master/1296-kth-ancestor-of-a-tree-node) |
 | [1475-maximum-sum-bst-in-binary-tree](https://github.com/Deep-023/LeetCode-questions/tree/master/1475-maximum-sum-bst-in-binary-tree) |
 | [1692-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/Deep-023/LeetCode-questions/tree/master/1692-number-of-ways-to-reorder-array-to-get-same-bst) |
+| [2060-merge-bsts-to-create-single-bst](https://github.com/Deep-023/LeetCode-questions/tree/master/2060-merge-bsts-to-create-single-bst) |
 # Union Find
 |  |
 | ------- |
