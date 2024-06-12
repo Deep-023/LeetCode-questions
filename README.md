@@ -71,6 +71,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0523-continuous-subarray-sum](https://github.com/Deep-023/LeetCode-questions/tree/master/0523-continuous-subarray-sum) |
 | [1692-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/Deep-023/LeetCode-questions/tree/master/1692-number-of-ways-to-reorder-array-to-get-same-bst) |
+| [3112-count-valid-paths-in-a-tree](https://github.com/Deep-023/LeetCode-questions/tree/master/3112-count-valid-paths-in-a-tree) |
 | [3277-find-the-number-of-ways-to-place-people-ii](https://github.com/Deep-023/LeetCode-questions/tree/master/3277-find-the-number-of-ways-to-place-people-ii) |
 | [3278-find-the-number-of-ways-to-place-people-i](https://github.com/Deep-023/LeetCode-questions/tree/master/3278-find-the-number-of-ways-to-place-people-i) |
 # Prefix Sum
@@ -130,6 +131,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1692-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/Deep-023/LeetCode-questions/tree/master/1692-number-of-ways-to-reorder-array-to-get-same-bst) |
 | [1820-number-of-ways-to-reconstruct-a-tree](https://github.com/Deep-023/LeetCode-questions/tree/master/1820-number-of-ways-to-reconstruct-a-tree) |
 | [2060-merge-bsts-to-create-single-bst](https://github.com/Deep-023/LeetCode-questions/tree/master/2060-merge-bsts-to-create-single-bst) |
+| [3112-count-valid-paths-in-a-tree](https://github.com/Deep-023/LeetCode-questions/tree/master/3112-count-valid-paths-in-a-tree) |
 | [3218-find-number-of-coins-to-place-in-tree-nodes](https://github.com/Deep-023/LeetCode-questions/tree/master/3218-find-number-of-coins-to-place-in-tree-nodes) |
 # Binary Tree
 |  |
@@ -149,6 +151,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1296-kth-ancestor-of-a-tree-node](https://github.com/Deep-023/LeetCode-questions/tree/master/1296-kth-ancestor-of-a-tree-node) |
 | [1475-maximum-sum-bst-in-binary-tree](https://github.com/Deep-023/LeetCode-questions/tree/master/1475-maximum-sum-bst-in-binary-tree) |
 | [2060-merge-bsts-to-create-single-bst](https://github.com/Deep-023/LeetCode-questions/tree/master/2060-merge-bsts-to-create-single-bst) |
+| [3112-count-valid-paths-in-a-tree](https://github.com/Deep-023/LeetCode-questions/tree/master/3112-count-valid-paths-in-a-tree) |
 | [3218-find-number-of-coins-to-place-in-tree-nodes](https://github.com/Deep-023/LeetCode-questions/tree/master/3218-find-number-of-coins-to-place-in-tree-nodes) |
 # Design
 |  |
@@ -162,6 +165,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1296-kth-ancestor-of-a-tree-node](https://github.com/Deep-023/LeetCode-questions/tree/master/1296-kth-ancestor-of-a-tree-node) |
 | [1475-maximum-sum-bst-in-binary-tree](https://github.com/Deep-023/LeetCode-questions/tree/master/1475-maximum-sum-bst-in-binary-tree) |
 | [1692-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/Deep-023/LeetCode-questions/tree/master/1692-number-of-ways-to-reorder-array-to-get-same-bst) |
+| [3112-count-valid-paths-in-a-tree](https://github.com/Deep-023/LeetCode-questions/tree/master/3112-count-valid-paths-in-a-tree) |
 | [3218-find-number-of-coins-to-place-in-tree-nodes](https://github.com/Deep-023/LeetCode-questions/tree/master/3218-find-number-of-coins-to-place-in-tree-nodes) |
 # Heap (Priority Queue)
 |  |
@@ -190,3 +194,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1820-number-of-ways-to-reconstruct-a-tree](https://github.com/Deep-023/LeetCode-questions/tree/master/1820-number-of-ways-to-reconstruct-a-tree) |
+# Number Theory
+|  |
+| ------- |
+| [3112-count-valid-paths-in-a-tree](https://github.com/Deep-023/LeetCode-questions/tree/master/3112-count-valid-paths-in-a-tree) |
