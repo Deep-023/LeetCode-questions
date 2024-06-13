@@ -34,12 +34,14 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0135-candy](https://github.com/Deep-023/LeetCode-questions/tree/master/0135-candy) |
 | [0409-longest-palindrome](https://github.com/Deep-023/LeetCode-questions/tree/master/0409-longest-palindrome) |
+| [0502-ipo](https://github.com/Deep-023/LeetCode-questions/tree/master/0502-ipo) |
 | [0876-hand-of-straights](https://github.com/Deep-023/LeetCode-questions/tree/master/0876-hand-of-straights) |
 # Array
 |  |
 | ------- |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Deep-023/LeetCode-questions/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0135-candy](https://github.com/Deep-023/LeetCode-questions/tree/master/0135-candy) |
+| [0502-ipo](https://github.com/Deep-023/LeetCode-questions/tree/master/0502-ipo) |
 | [0523-continuous-subarray-sum](https://github.com/Deep-023/LeetCode-questions/tree/master/0523-continuous-subarray-sum) |
 | [0648-replace-words](https://github.com/Deep-023/LeetCode-questions/tree/master/0648-replace-words) |
 | [0876-hand-of-straights](https://github.com/Deep-023/LeetCode-questions/tree/master/0876-hand-of-straights) |
@@ -56,6 +58,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 # Sorting
 |  |
 | ------- |
+| [0502-ipo](https://github.com/Deep-023/LeetCode-questions/tree/master/0502-ipo) |
 | [0876-hand-of-straights](https://github.com/Deep-023/LeetCode-questions/tree/master/0876-hand-of-straights) |
 | [1137-height-checker](https://github.com/Deep-023/LeetCode-questions/tree/master/1137-height-checker) |
 | [1217-relative-sort-array](https://github.com/Deep-023/LeetCode-questions/tree/master/1217-relative-sort-array) |
@@ -170,6 +173,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 # Heap (Priority Queue)
 |  |
 | ------- |
+| [0502-ipo](https://github.com/Deep-023/LeetCode-questions/tree/master/0502-ipo) |
 | [3218-find-number-of-coins-to-place-in-tree-nodes](https://github.com/Deep-023/LeetCode-questions/tree/master/3218-find-number-of-coins-to-place-in-tree-nodes) |
 # Binary Search Tree
 |  |
