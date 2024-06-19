@@ -50,6 +50,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1044-find-common-characters](https://github.com/Deep-023/LeetCode-questions/tree/master/1044-find-common-characters) |
 | [1137-height-checker](https://github.com/Deep-023/LeetCode-questions/tree/master/1137-height-checker) |
 | [1217-relative-sort-array](https://github.com/Deep-023/LeetCode-questions/tree/master/1217-relative-sort-array) |
+| [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/Deep-023/LeetCode-questions/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 | [1692-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/Deep-023/LeetCode-questions/tree/master/1692-number-of-ways-to-reorder-array-to-get-same-bst) |
 | [2188-minimized-maximum-of-products-distributed-to-any-store](https://github.com/Deep-023/LeetCode-questions/tree/master/2188-minimized-maximum-of-products-distributed-to-any-store) |
 | [3265-maximum-good-subarray-sum](https://github.com/Deep-023/LeetCode-questions/tree/master/3265-maximum-good-subarray-sum) |
@@ -180,6 +181,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [1296-kth-ancestor-of-a-tree-node](https://github.com/Deep-023/LeetCode-questions/tree/master/1296-kth-ancestor-of-a-tree-node) |
 | [1475-maximum-sum-bst-in-binary-tree](https://github.com/Deep-023/LeetCode-questions/tree/master/1475-maximum-sum-bst-in-binary-tree) |
+| [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/Deep-023/LeetCode-questions/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 | [1692-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/Deep-023/LeetCode-questions/tree/master/1692-number-of-ways-to-reorder-array-to-get-same-bst) |
 | [2060-merge-bsts-to-create-single-bst](https://github.com/Deep-023/LeetCode-questions/tree/master/2060-merge-bsts-to-create-single-bst) |
 # Union Find
