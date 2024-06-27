@@ -5,6 +5,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 # String
 |  |
 | ------- |
+| [0087-scramble-string](https://github.com/Deep-023/LeetCode-questions/tree/master/0087-scramble-string) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/Deep-023/LeetCode-questions/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0344-reverse-string](https://github.com/Deep-023/LeetCode-questions/tree/master/0344-reverse-string) |
 | [0409-longest-palindrome](https://github.com/Deep-023/LeetCode-questions/tree/master/0409-longest-palindrome) |
@@ -169,6 +170,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 # Dynamic Programming
 |  |
 | ------- |
+| [0087-scramble-string](https://github.com/Deep-023/LeetCode-questions/tree/master/0087-scramble-string) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/Deep-023/LeetCode-questions/tree/master/0124-binary-tree-maximum-path-sum) |
 | [1296-kth-ancestor-of-a-tree-node](https://github.com/Deep-023/LeetCode-questions/tree/master/1296-kth-ancestor-of-a-tree-node) |
 | [1475-maximum-sum-bst-in-binary-tree](https://github.com/Deep-023/LeetCode-questions/tree/master/1475-maximum-sum-bst-in-binary-tree) |
