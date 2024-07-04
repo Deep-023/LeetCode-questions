@@ -1,44 +1,37 @@
 class LRUCache {
 public:
-    
-    queue<int> q;
-    unordered_map<int,pair<int,int>> mp;
-    int size;
-    
-    LRUCache(int capacity) {
-        size = capacity;
+    int capacity;
+    std::list<int> keys; // List of keys in order of usage
+    std::unordered_map<int, std::pair<int, std::list<int>::iterator>> cache;
+    LRUCache(int cap) {
+        capacity = cap;
     }
     
     int get(int key) {
-        
-        if(mp.find(key) == mp.end())
+         if (cache.find(key) == cache.end()) {
             return -1;
-        
-        mp[key].second++;
-        q.push(key);
-        return mp[key].first;
+        }
+        // Move the accessed key to the front of the list (most recently used)
+        keys.splice(keys.begin(), keys, cache[key].second);
+        return cache[key].first;
     }
     
     void put(int key, int value) {
-        
-        if(mp.find(key) != mp.end()){
-            mp[key].first = value;
-        }else{
-            if(mp.size()<size){
-                mp[key] = {value,0};
-            }else{
-                while(mp[q.front()].second > 1){
-                    mp[q.front()].second--;
-                    q.pop();
-                }
-                
-                mp.erase(q.front());
-                q.pop();
-                mp[key] = {value,0};
+         if (cache.find(key) != cache.end()) {
+            // Update the value and move the key to the front
+            cache[key].first = value;
+            keys.splice(keys.begin(), keys, cache[key].second);
+        } else {
+            if (cache.size() >= capacity) {
+                // Remove the least recently used key-value pair
+                int lruKey = keys.back();
+                keys.pop_back();
+                cache.erase(lruKey);
             }
+            // Add the new key-value pair
+            keys.push_front(key);
+            cache[key] = {value, keys.begin()};
         }
-        mp[key].second++;
-        q.push(key);
     }
 };
 
