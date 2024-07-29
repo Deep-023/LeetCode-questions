@@ -240,4 +240,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0146-lru-cache](https://github.com/Deep-023/LeetCode-questions/tree/master/0146-lru-cache) |
+## Database
+|  |
+| ------- |
+| [1258-article-views-i](https://github.com/Deep-023/LeetCode-questions/tree/master/1258-article-views-i) |
 <!---LeetCode Topics End-->
