@@ -216,6 +216,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/Deep-023/LeetCode-questions/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
+| [1819-construct-the-lexicographically-largest-valid-sequence](https://github.com/Deep-023/LeetCode-questions/tree/master/1819-construct-the-lexicographically-largest-valid-sequence) |
 | [2411-spiral-matrix-iv](https://github.com/Deep-023/LeetCode-questions/tree/master/2411-spiral-matrix-iv) |
 ## Greedy
 |  |
@@ -283,5 +284,6 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Backtracking
 |  |
 | ------- |
+| [1819-construct-the-lexicographically-largest-valid-sequence](https://github.com/Deep-023/LeetCode-questions/tree/master/1819-construct-the-lexicographically-largest-valid-sequence) |
 | [2802-find-the-punishment-number-of-an-integer](https://github.com/Deep-023/LeetCode-questions/tree/master/2802-find-the-punishment-number-of-an-integer) |
 <!---LeetCode Topics End-->
