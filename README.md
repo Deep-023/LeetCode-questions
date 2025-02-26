@@ -217,6 +217,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/Deep-023/LeetCode-questions/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
 | [1819-construct-the-lexicographically-largest-valid-sequence](https://github.com/Deep-023/LeetCode-questions/tree/master/1819-construct-the-lexicographically-largest-valid-sequence) |
+| [1849-maximum-absolute-sum-of-any-subarray](https://github.com/Deep-023/LeetCode-questions/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
 | [2411-spiral-matrix-iv](https://github.com/Deep-023/LeetCode-questions/tree/master/2411-spiral-matrix-iv) |
 ## Greedy
 |  |
@@ -299,4 +300,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/Deep-023/LeetCode-questions/tree/master/1093-recover-a-tree-from-preorder-traversal) |
+## Dynamic Programming
+|  |
+| ------- |
+| [1849-maximum-absolute-sum-of-any-subarray](https://github.com/Deep-023/LeetCode-questions/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
 <!---LeetCode Topics End-->
