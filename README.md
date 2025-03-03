@@ -217,6 +217,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/Deep-023/LeetCode-questions/tree/master/0905-length-of-longest-fibonacci-subsequence) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/Deep-023/LeetCode-questions/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
+| [1753-path-with-minimum-effort](https://github.com/Deep-023/LeetCode-questions/tree/master/1753-path-with-minimum-effort) |
 | [1819-construct-the-lexicographically-largest-valid-sequence](https://github.com/Deep-023/LeetCode-questions/tree/master/1819-construct-the-lexicographically-largest-valid-sequence) |
 | [1849-maximum-absolute-sum-of-any-subarray](https://github.com/Deep-023/LeetCode-questions/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
 | [2411-spiral-matrix-iv](https://github.com/Deep-023/LeetCode-questions/tree/master/2411-spiral-matrix-iv) |
@@ -255,6 +256,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Matrix
 |  |
 | ------- |
+| [1753-path-with-minimum-effort](https://github.com/Deep-023/LeetCode-questions/tree/master/1753-path-with-minimum-effort) |
 | [2411-spiral-matrix-iv](https://github.com/Deep-023/LeetCode-questions/tree/master/2411-spiral-matrix-iv) |
 ## Simulation
 |  |
@@ -298,6 +300,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/Deep-023/LeetCode-questions/tree/master/1093-recover-a-tree-from-preorder-traversal) |
+| [1753-path-with-minimum-effort](https://github.com/Deep-023/LeetCode-questions/tree/master/1753-path-with-minimum-effort) |
 ## Binary Tree
 |  |
 | ------- |
@@ -307,4 +310,20 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/Deep-023/LeetCode-questions/tree/master/0905-length-of-longest-fibonacci-subsequence) |
 | [1849-maximum-absolute-sum-of-any-subarray](https://github.com/Deep-023/LeetCode-questions/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
+## Binary Search
+|  |
+| ------- |
+| [1753-path-with-minimum-effort](https://github.com/Deep-023/LeetCode-questions/tree/master/1753-path-with-minimum-effort) |
+## Breadth-First Search
+|  |
+| ------- |
+| [1753-path-with-minimum-effort](https://github.com/Deep-023/LeetCode-questions/tree/master/1753-path-with-minimum-effort) |
+## Union Find
+|  |
+| ------- |
+| [1753-path-with-minimum-effort](https://github.com/Deep-023/LeetCode-questions/tree/master/1753-path-with-minimum-effort) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [1753-path-with-minimum-effort](https://github.com/Deep-023/LeetCode-questions/tree/master/1753-path-with-minimum-effort) |
 <!---LeetCode Topics End-->
