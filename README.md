@@ -289,6 +289,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Math
 |  |
 | ------- |
+| [1889-check-if-number-is-a-sum-of-powers-of-three](https://github.com/Deep-023/LeetCode-questions/tree/master/1889-check-if-number-is-a-sum-of-powers-of-three) |
 | [2802-find-the-punishment-number-of-an-integer](https://github.com/Deep-023/LeetCode-questions/tree/master/2802-find-the-punishment-number-of-an-integer) |
 ## Backtracking
 |  |
