@@ -238,6 +238,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0146-lru-cache](https://github.com/Deep-023/LeetCode-questions/tree/master/0146-lru-cache) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/Deep-023/LeetCode-questions/tree/master/0905-length-of-longest-fibonacci-subsequence) |
+| [1460-number-of-substrings-containing-all-three-characters](https://github.com/Deep-023/LeetCode-questions/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/Deep-023/LeetCode-questions/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
 ## Linked List
 |  |
@@ -273,6 +274,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/Deep-023/LeetCode-questions/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/Deep-023/LeetCode-questions/tree/master/1093-recover-a-tree-from-preorder-traversal) |
+| [1460-number-of-substrings-containing-all-three-characters](https://github.com/Deep-023/LeetCode-questions/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/Deep-023/LeetCode-questions/tree/master/2021-remove-all-occurrences-of-a-substring) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/Deep-023/LeetCode-questions/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2800-minimum-string-length-after-removing-substrings](https://github.com/Deep-023/LeetCode-questions/tree/master/2800-minimum-string-length-after-removing-substrings) |
@@ -337,6 +339,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Sliding Window
 |  |
 | ------- |
+| [1460-number-of-substrings-containing-all-three-characters](https://github.com/Deep-023/LeetCode-questions/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/Deep-023/LeetCode-questions/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
 ## Counting
 |  |
