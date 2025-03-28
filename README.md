@@ -223,6 +223,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2265-partition-array-according-to-given-pivot](https://github.com/Deep-023/LeetCode-questions/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2411-spiral-matrix-iv](https://github.com/Deep-023/LeetCode-questions/tree/master/2411-spiral-matrix-iv) |
 | [2478-longest-nice-subarray](https://github.com/Deep-023/LeetCode-questions/tree/master/2478-longest-nice-subarray) |
+| [2588-maximum-number-of-points-from-grid-queries](https://github.com/Deep-023/LeetCode-questions/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/Deep-023/LeetCode-questions/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
 | [3483-alternating-groups-ii](https://github.com/Deep-023/LeetCode-questions/tree/master/3483-alternating-groups-ii) |
 ## Greedy
@@ -235,6 +236,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/Deep-023/LeetCode-questions/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
+| [2588-maximum-number-of-points-from-grid-queries](https://github.com/Deep-023/LeetCode-questions/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 ## Hash Table
 |  |
 | ------- |
@@ -264,6 +266,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [1753-path-with-minimum-effort](https://github.com/Deep-023/LeetCode-questions/tree/master/1753-path-with-minimum-effort) |
 | [2411-spiral-matrix-iv](https://github.com/Deep-023/LeetCode-questions/tree/master/2411-spiral-matrix-iv) |
+| [2588-maximum-number-of-points-from-grid-queries](https://github.com/Deep-023/LeetCode-questions/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 ## Simulation
 |  |
 | ------- |
@@ -293,6 +296,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/Deep-023/LeetCode-questions/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/Deep-023/LeetCode-questions/tree/master/2265-partition-array-according-to-given-pivot) |
+| [2588-maximum-number-of-points-from-grid-queries](https://github.com/Deep-023/LeetCode-questions/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 ## Math
 |  |
 | ------- |
@@ -330,14 +334,17 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1753-path-with-minimum-effort](https://github.com/Deep-023/LeetCode-questions/tree/master/1753-path-with-minimum-effort) |
+| [2588-maximum-number-of-points-from-grid-queries](https://github.com/Deep-023/LeetCode-questions/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 ## Union Find
 |  |
 | ------- |
 | [1753-path-with-minimum-effort](https://github.com/Deep-023/LeetCode-questions/tree/master/1753-path-with-minimum-effort) |
+| [2588-maximum-number-of-points-from-grid-queries](https://github.com/Deep-023/LeetCode-questions/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
 | [1753-path-with-minimum-effort](https://github.com/Deep-023/LeetCode-questions/tree/master/1753-path-with-minimum-effort) |
+| [2588-maximum-number-of-points-from-grid-queries](https://github.com/Deep-023/LeetCode-questions/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 ## Sliding Window
 |  |
 | ------- |
