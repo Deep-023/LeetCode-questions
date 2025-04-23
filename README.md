@@ -301,6 +301,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1889-check-if-number-is-a-sum-of-powers-of-three](https://github.com/Deep-023/LeetCode-questions/tree/master/1889-check-if-number-is-a-sum-of-powers-of-three) |
+| [2415-count-the-number-of-ideal-arrays](https://github.com/Deep-023/LeetCode-questions/tree/master/2415-count-the-number-of-ideal-arrays) |
 | [2802-find-the-punishment-number-of-an-integer](https://github.com/Deep-023/LeetCode-questions/tree/master/2802-find-the-punishment-number-of-an-integer) |
 ## Backtracking
 |  |
@@ -325,6 +326,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/Deep-023/LeetCode-questions/tree/master/0905-length-of-longest-fibonacci-subsequence) |
 | [1849-maximum-absolute-sum-of-any-subarray](https://github.com/Deep-023/LeetCode-questions/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
+| [2415-count-the-number-of-ideal-arrays](https://github.com/Deep-023/LeetCode-questions/tree/master/2415-count-the-number-of-ideal-arrays) |
 ## Binary Search
 |  |
 | ------- |
@@ -360,4 +362,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [2478-longest-nice-subarray](https://github.com/Deep-023/LeetCode-questions/tree/master/2478-longest-nice-subarray) |
+## Combinatorics
+|  |
+| ------- |
+| [2415-count-the-number-of-ideal-arrays](https://github.com/Deep-023/LeetCode-questions/tree/master/2415-count-the-number-of-ideal-arrays) |
+## Number Theory
+|  |
+| ------- |
+| [2415-count-the-number-of-ideal-arrays](https://github.com/Deep-023/LeetCode-questions/tree/master/2415-count-the-number-of-ideal-arrays) |
 <!---LeetCode Topics End-->
