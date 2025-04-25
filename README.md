@@ -225,6 +225,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2478-longest-nice-subarray](https://github.com/Deep-023/LeetCode-questions/tree/master/2478-longest-nice-subarray) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/Deep-023/LeetCode-questions/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/Deep-023/LeetCode-questions/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
+| [2915-count-of-interesting-subarrays](https://github.com/Deep-023/LeetCode-questions/tree/master/2915-count-of-interesting-subarrays) |
 | [3483-alternating-groups-ii](https://github.com/Deep-023/LeetCode-questions/tree/master/3483-alternating-groups-ii) |
 ## Greedy
 |  |
@@ -243,6 +244,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0146-lru-cache](https://github.com/Deep-023/LeetCode-questions/tree/master/0146-lru-cache) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/Deep-023/LeetCode-questions/tree/master/0905-length-of-longest-fibonacci-subsequence) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Deep-023/LeetCode-questions/tree/master/1460-number-of-substrings-containing-all-three-characters) |
+| [2915-count-of-interesting-subarrays](https://github.com/Deep-023/LeetCode-questions/tree/master/2915-count-of-interesting-subarrays) |
 | [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/Deep-023/LeetCode-questions/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
 ## Linked List
 |  |
@@ -370,4 +372,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [2415-count-the-number-of-ideal-arrays](https://github.com/Deep-023/LeetCode-questions/tree/master/2415-count-the-number-of-ideal-arrays) |
+## Prefix Sum
+|  |
+| ------- |
+| [2915-count-of-interesting-subarrays](https://github.com/Deep-023/LeetCode-questions/tree/master/2915-count-of-interesting-subarrays) |
 <!---LeetCode Topics End-->
