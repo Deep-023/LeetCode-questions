@@ -218,6 +218,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0198-house-robber](https://github.com/Deep-023/LeetCode-questions/tree/master/0198-house-robber) |
 | [0416-partition-equal-subset-sum](https://github.com/Deep-023/LeetCode-questions/tree/master/0416-partition-equal-subset-sum) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/Deep-023/LeetCode-questions/tree/master/0905-length-of-longest-fibonacci-subsequence) |
+| [0940-fruit-into-baskets](https://github.com/Deep-023/LeetCode-questions/tree/master/0940-fruit-into-baskets) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/Deep-023/LeetCode-questions/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
 | [1753-path-with-minimum-effort](https://github.com/Deep-023/LeetCode-questions/tree/master/1753-path-with-minimum-effort) |
 | [1819-construct-the-lexicographically-largest-valid-sequence](https://github.com/Deep-023/LeetCode-questions/tree/master/1819-construct-the-lexicographically-largest-valid-sequence) |
@@ -245,6 +246,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0146-lru-cache](https://github.com/Deep-023/LeetCode-questions/tree/master/0146-lru-cache) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/Deep-023/LeetCode-questions/tree/master/0905-length-of-longest-fibonacci-subsequence) |
+| [0940-fruit-into-baskets](https://github.com/Deep-023/LeetCode-questions/tree/master/0940-fruit-into-baskets) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Deep-023/LeetCode-questions/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [2915-count-of-interesting-subarrays](https://github.com/Deep-023/LeetCode-questions/tree/master/2915-count-of-interesting-subarrays) |
 | [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/Deep-023/LeetCode-questions/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
@@ -356,6 +358,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Sliding Window
 |  |
 | ------- |
+| [0940-fruit-into-baskets](https://github.com/Deep-023/LeetCode-questions/tree/master/0940-fruit-into-baskets) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Deep-023/LeetCode-questions/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [2478-longest-nice-subarray](https://github.com/Deep-023/LeetCode-questions/tree/master/2478-longest-nice-subarray) |
 | [3483-alternating-groups-ii](https://github.com/Deep-023/LeetCode-questions/tree/master/3483-alternating-groups-ii) |
