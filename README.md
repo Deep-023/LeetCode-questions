@@ -306,6 +306,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Math
 |  |
 | ------- |
+| [0231-power-of-two](https://github.com/Deep-023/LeetCode-questions/tree/master/0231-power-of-two) |
 | [1889-check-if-number-is-a-sum-of-powers-of-three](https://github.com/Deep-023/LeetCode-questions/tree/master/1889-check-if-number-is-a-sum-of-powers-of-three) |
 | [2415-count-the-number-of-ideal-arrays](https://github.com/Deep-023/LeetCode-questions/tree/master/2415-count-the-number-of-ideal-arrays) |
 | [2802-find-the-punishment-number-of-an-integer](https://github.com/Deep-023/LeetCode-questions/tree/master/2802-find-the-punishment-number-of-an-integer) |
@@ -370,6 +371,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Bit Manipulation
 |  |
 | ------- |
+| [0231-power-of-two](https://github.com/Deep-023/LeetCode-questions/tree/master/0231-power-of-two) |
 | [2478-longest-nice-subarray](https://github.com/Deep-023/LeetCode-questions/tree/master/2478-longest-nice-subarray) |
 ## Combinatorics
 |  |
@@ -383,4 +385,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [2915-count-of-interesting-subarrays](https://github.com/Deep-023/LeetCode-questions/tree/master/2915-count-of-interesting-subarrays) |
+## Recursion
+|  |
+| ------- |
+| [0231-power-of-two](https://github.com/Deep-023/LeetCode-questions/tree/master/0231-power-of-two) |
 <!---LeetCode Topics End-->
