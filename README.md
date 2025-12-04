@@ -277,6 +277,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/Deep-023/LeetCode-questions/tree/master/2021-remove-all-occurrences-of-a-substring) |
+| [2211-count-collisions-on-a-road](https://github.com/Deep-023/LeetCode-questions/tree/master/2211-count-collisions-on-a-road) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/Deep-023/LeetCode-questions/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2411-spiral-matrix-iv](https://github.com/Deep-023/LeetCode-questions/tree/master/2411-spiral-matrix-iv) |
 | [2800-minimum-string-length-after-removing-substrings](https://github.com/Deep-023/LeetCode-questions/tree/master/2800-minimum-string-length-after-removing-substrings) |
@@ -288,6 +289,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Deep-023/LeetCode-questions/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/Deep-023/LeetCode-questions/tree/master/2021-remove-all-occurrences-of-a-substring) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/Deep-023/LeetCode-questions/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
+| [2211-count-collisions-on-a-road](https://github.com/Deep-023/LeetCode-questions/tree/master/2211-count-collisions-on-a-road) |
 | [2800-minimum-string-length-after-removing-substrings](https://github.com/Deep-023/LeetCode-questions/tree/master/2800-minimum-string-length-after-removing-substrings) |
 | [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/Deep-023/LeetCode-questions/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
 ## Stack
@@ -296,6 +298,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/Deep-023/LeetCode-questions/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/Deep-023/LeetCode-questions/tree/master/2021-remove-all-occurrences-of-a-substring) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/Deep-023/LeetCode-questions/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
+| [2211-count-collisions-on-a-road](https://github.com/Deep-023/LeetCode-questions/tree/master/2211-count-collisions-on-a-road) |
 | [2800-minimum-string-length-after-removing-substrings](https://github.com/Deep-023/LeetCode-questions/tree/master/2800-minimum-string-length-after-removing-substrings) |
 ## Two Pointers
 |  |
