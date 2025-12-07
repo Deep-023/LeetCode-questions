@@ -230,6 +230,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/Deep-023/LeetCode-questions/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
 | [2915-count-of-interesting-subarrays](https://github.com/Deep-023/LeetCode-questions/tree/master/2915-count-of-interesting-subarrays) |
 | [3483-alternating-groups-ii](https://github.com/Deep-023/LeetCode-questions/tree/master/3483-alternating-groups-ii) |
+| [3578-count-partitions-with-max-min-difference-at-most-k](https://github.com/Deep-023/LeetCode-questions/tree/master/3578-count-partitions-with-max-min-difference-at-most-k) |
 ## Greedy
 |  |
 | ------- |
@@ -339,6 +340,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/Deep-023/LeetCode-questions/tree/master/0905-length-of-longest-fibonacci-subsequence) |
 | [1849-maximum-absolute-sum-of-any-subarray](https://github.com/Deep-023/LeetCode-questions/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
 | [2415-count-the-number-of-ideal-arrays](https://github.com/Deep-023/LeetCode-questions/tree/master/2415-count-the-number-of-ideal-arrays) |
+| [3578-count-partitions-with-max-min-difference-at-most-k](https://github.com/Deep-023/LeetCode-questions/tree/master/3578-count-partitions-with-max-min-difference-at-most-k) |
 ## Binary Search
 |  |
 | ------- |
@@ -367,6 +369,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2478-longest-nice-subarray](https://github.com/Deep-023/LeetCode-questions/tree/master/2478-longest-nice-subarray) |
 | [3483-alternating-groups-ii](https://github.com/Deep-023/LeetCode-questions/tree/master/3483-alternating-groups-ii) |
 | [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/Deep-023/LeetCode-questions/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
+| [3578-count-partitions-with-max-min-difference-at-most-k](https://github.com/Deep-023/LeetCode-questions/tree/master/3578-count-partitions-with-max-min-difference-at-most-k) |
 ## Counting
 |  |
 | ------- |
@@ -388,8 +391,17 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [2915-count-of-interesting-subarrays](https://github.com/Deep-023/LeetCode-questions/tree/master/2915-count-of-interesting-subarrays) |
+| [3578-count-partitions-with-max-min-difference-at-most-k](https://github.com/Deep-023/LeetCode-questions/tree/master/3578-count-partitions-with-max-min-difference-at-most-k) |
 ## Recursion
 |  |
 | ------- |
 | [0231-power-of-two](https://github.com/Deep-023/LeetCode-questions/tree/master/0231-power-of-two) |
+## Queue
+|  |
+| ------- |
+| [3578-count-partitions-with-max-min-difference-at-most-k](https://github.com/Deep-023/LeetCode-questions/tree/master/3578-count-partitions-with-max-min-difference-at-most-k) |
+## Monotonic Queue
+|  |
+| ------- |
+| [3578-count-partitions-with-max-min-difference-at-most-k](https://github.com/Deep-023/LeetCode-questions/tree/master/3578-count-partitions-with-max-min-difference-at-most-k) |
 <!---LeetCode Topics End-->
