@@ -311,6 +311,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0231-power-of-two](https://github.com/Deep-023/LeetCode-questions/tree/master/0231-power-of-two) |
+| [1523-count-odd-numbers-in-an-interval-range](https://github.com/Deep-023/LeetCode-questions/tree/master/1523-count-odd-numbers-in-an-interval-range) |
 | [1889-check-if-number-is-a-sum-of-powers-of-three](https://github.com/Deep-023/LeetCode-questions/tree/master/1889-check-if-number-is-a-sum-of-powers-of-three) |
 | [2415-count-the-number-of-ideal-arrays](https://github.com/Deep-023/LeetCode-questions/tree/master/2415-count-the-number-of-ideal-arrays) |
 | [2802-find-the-punishment-number-of-an-integer](https://github.com/Deep-023/LeetCode-questions/tree/master/2802-find-the-punishment-number-of-an-integer) |
