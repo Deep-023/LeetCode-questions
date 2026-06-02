@@ -216,6 +216,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0073-set-matrix-zeroes](https://github.com/Deep-023/LeetCode-questions/tree/master/0073-set-matrix-zeroes) |
+| [0118-pascals-triangle](https://github.com/Deep-023/LeetCode-questions/tree/master/0118-pascals-triangle) |
 | [0198-house-robber](https://github.com/Deep-023/LeetCode-questions/tree/master/0198-house-robber) |
 | [0416-partition-equal-subset-sum](https://github.com/Deep-023/LeetCode-questions/tree/master/0416-partition-equal-subset-sum) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/Deep-023/LeetCode-questions/tree/master/0905-length-of-longest-fibonacci-subsequence) |
@@ -340,6 +341,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Dynamic Programming
 |  |
 | ------- |
+| [0118-pascals-triangle](https://github.com/Deep-023/LeetCode-questions/tree/master/0118-pascals-triangle) |
 | [0198-house-robber](https://github.com/Deep-023/LeetCode-questions/tree/master/0198-house-robber) |
 | [0416-partition-equal-subset-sum](https://github.com/Deep-023/LeetCode-questions/tree/master/0416-partition-equal-subset-sum) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/Deep-023/LeetCode-questions/tree/master/0905-length-of-longest-fibonacci-subsequence) |
